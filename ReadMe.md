@@ -944,226 +944,226 @@ print(ff_team_names)
 
 
 ```python
-roster_df = roster_df[['name', 'NFLTeam', 'Pos', 'cost', 'keeper', 'team']]
+roster_df = roster_df[['name', 'NFLTeam', 'Pos', 'cost', 'keeper', 'team']].sort_values(by=["cost"], ascending=False)
 for ff in ff_team_names:
     print(roster_df.loc[roster_df['team'] == ff])
     print("------------------------------------------------------------------------------------")
 ```
 
                      name NFLTeam  Pos  cost keeper                 team
-    0        Dak Prescott     Dal   QB     6         Naggers w/ Attitude
     9          A.J. Green     Cin   WR    67         Naggers w/ Attitude
-    23      Brandin Cooks     LAR   WR    39         Naggers w/ Attitude
-    24     DeSean Jackson      TB   WR     2         Naggers w/ Attitude
+    180   Ezekiel Elliott     Dal   RB    55      B  Naggers w/ Attitude
     28          Zach Ertz     Phi   TE    49         Naggers w/ Attitude
-    58        Los Angeles     LAR  DEF    11         Naggers w/ Attitude
+    23      Brandin Cooks     LAR   WR    39         Naggers w/ Attitude
+    178      Kirk Cousins     Min   QB    22     AB  Naggers w/ Attitude
+    177    Michael Thomas      NO   WR    18     AB  Naggers w/ Attitude
     80      Rashaad Penny     Sea   RB    13         Naggers w/ Attitude
+    58        Los Angeles     LAR  DEF    11         Naggers w/ Attitude
     84       Bilal Powell     NYJ   RB     7         Naggers w/ Attitude
+    0        Dak Prescott     Dal   QB     6         Naggers w/ Attitude
+    179  Marquise Goodwin      SF   WR     5      B  Naggers w/ Attitude
     94      Justin Tucker     Bal    K     4         Naggers w/ Attitude
-    108        Greg Olsen     Car   TE     0         Naggers w/ Attitude
+    24     DeSean Jackson      TB   WR     2         Naggers w/ Attitude
     120       James White      NE   RB     2         Naggers w/ Attitude
     129      Randall Cobb      GB   WR     1         Naggers w/ Attitude
-    177    Michael Thomas      NO   WR    18     AB  Naggers w/ Attitude
-    178      Kirk Cousins     Min   QB    22     AB  Naggers w/ Attitude
-    179  Marquise Goodwin      SF   WR     5      B  Naggers w/ Attitude
-    180   Ezekiel Elliott     Dal   RB    55      B  Naggers w/ Attitude
+    108        Greg Olsen     Car   TE     0         Naggers w/ Attitude
     ------------------------------------------------------------------------------------
                     name NFLTeam  Pos  cost keeper               team
     1      Antonio Brown     Pit   WR    81         Chi ShingT's Team
-    16      Robert Woods     LAR   WR    23         Chi ShingT's Team
-    19   Phillip Dorsett      NE   WR     0         Chi ShingT's Team
     25         Joe Mixon     Cin   RB    51         Chi ShingT's Team
-    30     Tevin Coleman     Atl   RB    22         Chi ShingT's Team
     38       Mark Ingram      NO   RB    39         Chi ShingT's Team
-    47       Will Dissly     Sea   TE     0         Chi ShingT's Team
-    82    Darren Sproles     Phi   RB     3         Chi ShingT's Team
-    102  Patrick Mahomes      KC   QB     3         Chi ShingT's Team
-    127    Chris Boswell     Pit    K     1         Chi ShingT's Team
-    135       Frank Gore     Mia   RB     0         Chi ShingT's Team
-    141        Cleveland     Cle  DEF     0         Chi ShingT's Team
-    181   Chris Thompson     Was   RB     5      B  Chi ShingT's Team
+    16      Robert Woods     LAR   WR    23         Chi ShingT's Team
+    30     Tevin Coleman     Atl   RB    22         Chi ShingT's Team
     182    Peyton Barber      TB   RB    10      B  Chi ShingT's Team
     183  Jimmy Garoppolo      SF   QB     5      B  Chi ShingT's Team
     184    Will Fuller V     Hou   WR     5      B  Chi ShingT's Team
+    181   Chris Thompson     Was   RB     5      B  Chi ShingT's Team
+    102  Patrick Mahomes      KC   QB     3         Chi ShingT's Team
+    82    Darren Sproles     Phi   RB     3         Chi ShingT's Team
+    127    Chris Boswell     Pit    K     1         Chi ShingT's Team
+    19   Phillip Dorsett      NE   WR     0         Chi ShingT's Team
+    135       Frank Gore     Mia   RB     0         Chi ShingT's Team
+    141        Cleveland     Cle  DEF     0         Chi ShingT's Team
+    47       Will Dissly     Sea   TE     0         Chi ShingT's Team
     ------------------------------------------------------------------------------------
                       name NFLTeam  Pos  cost keeper          team
     2       Rob Gronkowski      NE   TE    64         crushiNG RON
-    22       Alfred Morris      SF   RB     8         crushiNG RON
-    42     Jamison Crowder     Was   WR    20         crushiNG RON
-    46           Minnesota     Min  DEF     9         crushiNG RON
-    49          Drew Brees      NO   QB    25         crushiNG RON
-    81      Nelson Agholor     Phi   WR    13         crushiNG RON
-    87         Mark Walton     Cin   RB     0         crushiNG RON
-    90     Jamaal Williams      GB   RB     9         crushiNG RON
-    114      Malcolm Brown     LAR   RB     0         crushiNG RON
-    123     Javorius Allen     Bal   RB     0         crushiNG RON
-    125     Jordan Wilkins     Ind   RB     1         crushiNG RON
-    133        Marlon Mack     Ind   RB     1         crushiNG RON
-    167       Kenyan Drake     Mia   RB    17      B  crushiNG RON
-    168      Davante Adams      GB   WR    27     AB  crushiNG RON
-    169  Melvin Gordon III     LAC   RB    39     AB  crushiNG RON
     170    DeAndre Hopkins     Hou   WR    56      B  crushiNG RON
+    169  Melvin Gordon III     LAC   RB    39     AB  crushiNG RON
+    168      Davante Adams      GB   WR    27     AB  crushiNG RON
+    49          Drew Brees      NO   QB    25         crushiNG RON
+    42     Jamison Crowder     Was   WR    20         crushiNG RON
+    167       Kenyan Drake     Mia   RB    17      B  crushiNG RON
+    81      Nelson Agholor     Phi   WR    13         crushiNG RON
+    46           Minnesota     Min  DEF     9         crushiNG RON
+    90     Jamaal Williams      GB   RB     9         crushiNG RON
+    22       Alfred Morris      SF   RB     8         crushiNG RON
+    133        Marlon Mack     Ind   RB     1         crushiNG RON
+    125     Jordan Wilkins     Ind   RB     1         crushiNG RON
+    123     Javorius Allen     Bal   RB     0         crushiNG RON
+    87         Mark Walton     Cin   RB     0         crushiNG RON
+    114      Malcolm Brown     LAR   RB     0         crushiNG RON
     ------------------------------------------------------------------------------------
                       name NFLTeam  Pos  cost keeper          team
-    3    Leonard Fournette     Jax   RB    60         Kamara Sutra
     14        Keenan Allen     LAC   WR    71         Kamara Sutra
-    20       Royce Freeman     Den   RB    36         Kamara Sutra
+    3    Leonard Fournette     Jax   RB    60         Kamara Sutra
     39         Chris Hogan      NE   WR    39         Kamara Sutra
-    62         T.J. Yeldon     Jax   RB    11         Kamara Sutra
-    75       George Kittle      SF   TE     6         Kamara Sutra
-    86       Austin Ekeler     LAC   RB     6         Kamara Sutra
-    98              Dallas     Dal  DEF     1         Kamara Sutra
-    110       Chris Godwin      TB   WR     3         Kamara Sutra
-    130         Josh Lambo     Jax    K     0         Kamara Sutra
-    137   Ryan Fitzpatrick      TB   QB     6         Kamara Sutra
-    142        Jesse James     Pit   TE     2         Kamara Sutra
-    152  Allen Robinson II     Chi   WR     5      B  Kamara Sutra
-    153       Alvin Kamara      NO   RB     9      B  Kamara Sutra
+    20       Royce Freeman     Den   RB    36         Kamara Sutra
     154         Mike Evans      TB   WR    30     AB  Kamara Sutra
+    62         T.J. Yeldon     Jax   RB    11         Kamara Sutra
+    153       Alvin Kamara      NO   RB     9      B  Kamara Sutra
+    137   Ryan Fitzpatrick      TB   QB     6         Kamara Sutra
+    86       Austin Ekeler     LAC   RB     6         Kamara Sutra
+    75       George Kittle      SF   TE     6         Kamara Sutra
+    152  Allen Robinson II     Chi   WR     5      B  Kamara Sutra
     155        Andrew Luck     Ind   QB     5      B  Kamara Sutra
+    110       Chris Godwin      TB   WR     3         Kamara Sutra
+    142        Jesse James     Pit   TE     2         Kamara Sutra
+    98              Dallas     Dal  DEF     1         Kamara Sutra
+    130         Josh Lambo     Jax    K     0         Kamara Sutra
     ------------------------------------------------------------------------------------
                      name NFLTeam  Pos  cost keeper             team
-    4         T.Y. Hilton     Ind   WR    51         Cry me a Philip
-    8        Lamar Miller     Hou   RB    28         Cry me a Philip
     10        Julio Jones     Atl   WR    85         Cry me a Philip
+    4         T.Y. Hilton     Ind   WR    51         Cry me a Philip
+    162    Russell Wilson     Sea   QB    34      B  Cry me a Philip
+    160     Sammy Watkins      KC   WR    32      B  Cry me a Philip
+    8        Lamar Miller     Hou   RB    28         Cry me a Philip
+    161      Kyle Rudolph     Min   TE    17     AB  Cry me a Philip
+    72     Isaiah Crowell     NYJ   RB    14         Cry me a Philip
     56   Matthew Stafford     Det   QB    14         Cry me a Philip
     69     Robby Anderson     NYJ   WR    14         Cry me a Philip
-    72     Isaiah Crowell     NYJ   RB    14         Cry me a Philip
-    113          Wil Lutz      NO    K     1         Cry me a Philip
+    159     Tyler Lockett     Sea   WR     5      B  Cry me a Philip
     124       New England      NE  DEF     1         Cry me a Philip
     132     C.J. Anderson     Car   RB     1         Cry me a Philip
     139        Eric Ebron     Ind   TE     1         Cry me a Philip
-    144        John Brown     Bal   WR     1         Cry me a Philip
+    113          Wil Lutz      NO    K     1         Cry me a Philip
     146           Arizona     Ari  DEF     1         Cry me a Philip
-    159     Tyler Lockett     Sea   WR     5      B  Cry me a Philip
-    160     Sammy Watkins      KC   WR    32      B  Cry me a Philip
-    161      Kyle Rudolph     Min   TE    17     AB  Cry me a Philip
-    162    Russell Wilson     Sea   QB    34      B  Cry me a Philip
+    144        John Brown     Bal   WR     1         Cry me a Philip
     ------------------------------------------------------------------------------------
                        name NFLTeam  Pos  cost keeper      team
     5        Saquon Barkley     NYG   RB    74         Bye Week
-    12            Jay Ajayi     Phi   RB    34         Bye Week
     37          Corey Davis     Ten   WR    35         Bye Week
+    12            Jay Ajayi     Phi   RB    34         Bye Week
     52           Cam Newton     Car   QB    30         Bye Week
+    174         Golden Tate     Det   WR    29     AB  Bye Week
+    172     Devonta Freeman     Atl   RB    22     AB  Bye Week
     59        Pierre Garcon      SF   WR    15         Bye Week
-    60   Stephen Gostkowski      NE    K     5         Bye Week
-    66       Michael Gallup     Dal   WR    14         Bye Week
-    70          Los Angeles     LAC  DEF     4         Bye Week
-    73         Tyler Eifert     Cin   TE     5         Bye Week
     74       Devin Funchess     Car   WR    15         Bye Week
+    66       Michael Gallup     Dal   WR    14         Bye Week
+    60   Stephen Gostkowski      NE    K     5         Bye Week
+    73         Tyler Eifert     Cin   TE     5         Bye Week
+    173       Corey Clement     Phi   RB     5      B  Bye Week
+    171         Keelan Cole     Jax   WR     5      B  Bye Week
+    70          Los Angeles     LAC  DEF     4         Bye Week
     99      Jerick McKinnon      SF   RB     3         Bye Week
     122         Doug Martin     Oak   RB     1         Bye Week
-    171         Keelan Cole     Jax   WR     5      B  Bye Week
-    172     Devonta Freeman     Atl   RB    22     AB  Bye Week
-    173       Corey Clement     Phi   RB     5      B  Bye Week
-    174         Golden Tate     Det   WR    29     AB  Bye Week
     ------------------------------------------------------------------------------------
                      name NFLTeam  Pos  cost keeper  team
-    6        LeSean McCoy     Buf   RB    29         Nags
     13        Tyreek Hill      KC   WR    60         Nags
-    18    Kelvin Benjamin     Buf   WR    15         Nags
     26       Travis Kelce      KC   TE    52         Nags
     32      Aaron Rodgers      GB   QB    51         Nags
-    34       Jacksonville     Jax  DEF     8         Nags
     50         Dion Lewis     Ten   RB    29         Nags
+    6        LeSean McCoy     Buf   RB    29         Nags
+    176     David Johnson     Ari   RB    18     AB  Nags
     53     Marshawn Lynch     Oak   RB    16         Nags
+    18    Kelvin Benjamin     Buf   WR    15         Nags
+    34       Jacksonville     Jax  DEF     8         Nags
+    175    Deshaun Watson     Hou   QB     6     AB  Nags
     83     DeVante Parker     Mia   WR     5         Nags
     93   Sterling Shepard     NYG   WR     4         Nags
-    107  Rishard Matthews     Ten   WR     1         Nags
     119        Nick Chubb     Cle   RB     3         Nags
-    128     Calvin Ridley     Atl   WR     1         Nags
     136        Dan Bailey     Min    K     3         Nags
-    175    Deshaun Watson     Hou   QB     6     AB  Nags
-    176     David Johnson     Ari   RB    18     AB  Nags
+    128     Calvin Ridley     Atl   WR     1         Nags
+    107  Rishard Matthews     Ten   WR     1         Nags
     ------------------------------------------------------------------------------------
                         name NFLTeam  Pos  cost keeper                 team
-    7          Philip Rivers     LAC   QB    11         Thx Ron and Le'Veon
     11      Larry Fitzgerald     Ari   WR    41         Thx Ron and Le'Veon
-    43        Julian Edelman      NE   WR    19         Thx Ron and Le'Veon
     67       Ronald Jones II      TB   RB    23         Thx Ron and Le'Veon
-    79        Anthony Miller     Chi   WR     7         Thx Ron and Le'Veon
+    43        Julian Edelman      NE   WR    19         Thx Ron and Le'Veon
+    187        Derrick Henry     Ten   RB    19      B  Thx Ron and Le'Veon
+    7          Philip Rivers     LAC   QB    11         Thx Ron and Le'Veon
     88       Kerryon Johnson     Det   RB    10         Thx Ron and Le'Veon
-    91               Chicago     Chi  DEF     3         Thx Ron and Le'Veon
-    95           Sony Michel      NE   RB     7         Thx Ron and Le'Veon
-    100         James Conner     Pit   RB     5         Thx Ron and Le'Veon
-    103     Antonio Callaway     Cle   WR     0         Thx Ron and Le'Veon
-    115       Kenny Golladay     Det   WR     5         Thx Ron and Le'Veon
-    118         Jake Elliott     Phi    K     2         Thx Ron and Le'Veon
     185          Tarik Cohen     Chi   RB     8      B  Thx Ron and Le'Veon
     186          Evan Engram     NYG   TE     8      B  Thx Ron and Le'Veon
-    187        Derrick Henry     Ten   RB    19      B  Thx Ron and Le'Veon
+    79        Anthony Miller     Chi   WR     7         Thx Ron and Le'Veon
+    95           Sony Michel      NE   RB     7         Thx Ron and Le'Veon
     188  JuJu Smith-Schuster     Pit   WR     5      B  Thx Ron and Le'Veon
+    115       Kenny Golladay     Det   WR     5         Thx Ron and Le'Veon
+    100         James Conner     Pit   RB     5         Thx Ron and Le'Veon
+    91               Chicago     Chi  DEF     3         Thx Ron and Le'Veon
+    118         Jake Elliott     Phi    K     2         Thx Ron and Le'Veon
+    103     Antonio Callaway     Cle   WR     0         Thx Ron and Le'Veon
     ------------------------------------------------------------------------------------
                      name NFLTeam  Pos  cost keeper              team
+    157       Dalvin Cook     Min   RB    64      B  2 Gurley's 1 Cup
     15     Alshon Jeffery     Phi   WR    40         2 Gurley's 1 Cup
+    158    Todd Gurley II     LAR   RB    40     AB  2 Gurley's 1 Cup
     33      Jarvis Landry     Cle   WR    38         2 Gurley's 1 Cup
-    35    Adrian Peterson     Was   RB    12         2 Gurley's 1 Cup
+    156      Adam Thielen     Min   WR    28      B  2 Gurley's 1 Cup
     57   Emmanuel Sanders     Den   WR    18         2 Gurley's 1 Cup
     63    Phillip Lindsay     Den   RB    15         2 Gurley's 1 Cup
-    64         Jared Goff     LAR   QB     2         2 Gurley's 1 Cup
+    35    Adrian Peterson     Was   RB    12         2 Gurley's 1 Cup
     68        Jordan Reed     Was   TE    10         2 Gurley's 1 Cup
-    71         Jared Cook     Oak   TE     3         2 Gurley's 1 Cup
-    77       Philadelphia     Phi  DEF     5         2 Gurley's 1 Cup
     92         Josh Rosen     Ari   QB     5         2 Gurley's 1 Cup
+    77       Philadelphia     Phi  DEF     5         2 Gurley's 1 Cup
+    71         Jared Cook     Oak   TE     3         2 Gurley's 1 Cup
+    121       Aaron Jones      GB   RB     2         2 Gurley's 1 Cup
+    64         Jared Goff     LAR   QB     2         2 Gurley's 1 Cup
     104       Sam Darnold     NYJ   QB     1         2 Gurley's 1 Cup
     116      Mason Crosby      GB    K     0         2 Gurley's 1 Cup
-    121       Aaron Jones      GB   RB     2         2 Gurley's 1 Cup
-    156      Adam Thielen     Min   WR    28      B  2 Gurley's 1 Cup
-    157       Dalvin Cook     Min   RB    64      B  2 Gurley's 1 Cup
-    158    Todd Gurley II     LAR   RB    40     AB  2 Gurley's 1 Cup
     ------------------------------------------------------------------------------------
                      name NFLTeam  Pos  cost keeper             team
     17        Kareem Hunt      KC   RB    79         FirstRoundFlops
-    21          Tom Brady      NE   QB    28         FirstRoundFlops
     29      Jordan Howard     Chi   RB    64         FirstRoundFlops
-    36   Michael Crabtree     Bal   WR    19         FirstRoundFlops
+    151      Amari Cooper     Oak   WR    43     AB  FirstRoundFlops
     45        Trey Burton     Chi   TE    31         FirstRoundFlops
+    21          Tom Brady      NE   QB    28         FirstRoundFlops
+    150      Doug Baldwin     Sea   WR    24     AB  FirstRoundFlops
+    36   Michael Crabtree     Bal   WR    19         FirstRoundFlops
     96         Jack Doyle     Ind   TE     4         FirstRoundFlops
-    117     Mike Williams     LAC   WR     1         FirstRoundFlops
     126           Atlanta     Atl  DEF     1         FirstRoundFlops
     134   Harrison Butker      KC    K     1         FirstRoundFlops
-    140     Blake Bortles     Jax   QB     1         FirstRoundFlops
-    145   Benjamin Watson      NO   TE     1         FirstRoundFlops
     147   Latavius Murray     Min   RB     1         FirstRoundFlops
-    148   Tyrell Williams     LAC   WR     1         FirstRoundFlops
+    117     Mike Williams     LAC   WR     1         FirstRoundFlops
+    140     Blake Bortles     Jax   QB     1         FirstRoundFlops
     149      Robbie Gould      SF    K     1         FirstRoundFlops
-    150      Doug Baldwin     Sea   WR    24     AB  FirstRoundFlops
-    151      Amari Cooper     Oak   WR    43     AB  FirstRoundFlops
+    148   Tyrell Williams     LAC   WR     1         FirstRoundFlops
+    145   Benjamin Watson      NO   TE     1         FirstRoundFlops
     ------------------------------------------------------------------------------------
                         name NFLTeam  Pos  cost keeper     team
     27   Christian McCaffrey     Car   RB    67         K-K-Dai
-    31          Jimmy Graham      GB   TE    23         K-K-Dai
+    166         Le'Veon Bell     Pit   RB    66     AB  K-K-Dai
     41          Alex Collins     Bal   RB    56         K-K-Dai
-    76    Ben Roethlisberger     Pit   QB     0         K-K-Dai
-    78      Geronimo Allison      GB   WR     0         K-K-Dai
-    101        Quincy Enunwa     NYJ   WR     0         K-K-Dai
-    106          Matt Bryant     Atl    K     2         K-K-Dai
+    164    Odell Beckham Jr.     NYG   WR    29     AB  K-K-Dai
+    163         Stefon Diggs     Min   WR    24     AB  K-K-Dai
+    31          Jimmy Graham      GB   TE    23         K-K-Dai
     111          Matt Breida      SF   RB    11         K-K-Dai
+    165          Josh Gordon      NE   WR     6      B  K-K-Dai
     112      Giovani Bernard     Cin   RB     6         K-K-Dai
+    106          Matt Bryant     Atl    K     2         K-K-Dai
     131           Alex Smith     Was   QB     1         K-K-Dai
+    101        Quincy Enunwa     NYJ   WR     0         K-K-Dai
     138           Tyler Boyd     Cin   WR     0         K-K-Dai
     143              Houston     Hou  DEF     0         K-K-Dai
-    163         Stefon Diggs     Min   WR    24     AB  K-K-Dai
-    164    Odell Beckham Jr.     NYG   WR    29     AB  K-K-Dai
-    165          Josh Gordon      NE   WR     6      B  K-K-Dai
-    166         Le'Veon Bell     Pit   RB    66     AB  K-K-Dai
+    76    Ben Roethlisberger     Pit   QB     0         K-K-Dai
+    78      Geronimo Allison      GB   WR     0         K-K-Dai
     ------------------------------------------------------------------------------------
                      name NFLTeam  Pos  cost keeper team
-    40        Cooper Kupp     LAR   WR    24           G
     44   Demaryius Thomas     Den   WR    38           G
     48       Rex Burkhead      NE   RB    29           G
-    51        Carlos Hyde     Cle   RB    22           G
-    54     Dede Westbrook     Jax   WR     0           G
-    55        O.J. Howard      TB   TE    14           G
-    61        David Njoku     Cle   TE     9           G
     65       Chris Carson     Sea   RB    25           G
-    85       Spencer Ware      KC   RB     1           G
+    40        Cooper Kupp     LAR   WR    24           G
+    51        Carlos Hyde     Cle   RB    22           G
+    55        O.J. Howard      TB   TE    14           G
+    191  Marvin Jones Jr.     Det   WR    12      B    G
+    190      Carson Wentz     Phi   QB    10      B    G
+    61        David Njoku     Cle   TE     9           G
     89      Greg Zuerlein     LAR    K     5           G
     97          Baltimore     Bal  DEF     5           G
-    105      Kenny Stills     Mia   WR     3           G
     109         Matt Ryan     Atl   QB     3           G
+    105      Kenny Stills     Mia   WR     3           G
     189      Tyrod Taylor     Cle   QB     1           G
-    190      Carson Wentz     Phi   QB    10      B    G
-    191  Marvin Jones Jr.     Det   WR    12      B    G
+    85       Spencer Ware      KC   RB     1           G
+    54     Dede Westbrook     Jax   WR     0           G
     ------------------------------------------------------------------------------------
     
