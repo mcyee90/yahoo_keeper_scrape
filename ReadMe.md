@@ -40,19 +40,19 @@ manager_df = pd.DataFrame(manager_list)
 manager_df.head(12)
 ```
 
-    ["2 Gurley's 1 Cup", 'Bye Week', "Chi ShingT's Team", 'Cry me a Philip', 'Evan NOT-Almighty', 'Ey Yo Nagster', 'FirstRoundFlops', 'G', 'Nags', 'Ron Ng away with it', 'Threemen one Kupp', 'Yeezekiel Elliott']
+    ["2 Gurley's 1 Cup", 'Bye Week', "Chi ShingT's Team", 'Cry me a Philip', 'Daized and Confused', 'Douglast', 'FirstRoundFlops', 'Free-Mangina', 'G', 'No bunny no fu fu', 'Seandon', 'Yeebola']
     Who is the manager for 2 Gurley's 1 Cup? Matt
     Who is the manager for Bye Week? Doug
     Who is the manager for Chi ShingT's Team? Chi Shing
     Who is the manager for Cry me a Philip? Evan
-    Who is the manager for Evan NOT-Almighty? Dai
-    Who is the manager for Ey Yo Nagster? Sean
+    Who is the manager for Daized and Confused? Sean
+    Who is the manager for Douglast? Jake
     Who is the manager for FirstRoundFlops? Rajiv
+    Who is the manager for Free-Mangina? Ryan
     Who is the manager for G? Jiwei
-    Who is the manager for Nags? Ryan
-    Who is the manager for Ron Ng away with it? Andrew
-    Who is the manager for Threemen one Kupp? Ron
-    Who is the manager for Yeezekiel Elliott? Jake
+    Who is the manager for No bunny no fu fu? Andrew
+    Who is the manager for Seandon? Dai
+    Who is the manager for Yeebola? Ron
     
 
 
@@ -103,13 +103,13 @@ manager_df.head(12)
     </tr>
     <tr>
       <th>4</th>
-      <td>Dai</td>
-      <td>Evan NOT-Almighty</td>
+      <td>Sean</td>
+      <td>Daized and Confused</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>Sean</td>
-      <td>Ey Yo Nagster</td>
+      <td>Jake</td>
+      <td>Douglast</td>
     </tr>
     <tr>
       <th>6</th>
@@ -118,28 +118,28 @@ manager_df.head(12)
     </tr>
     <tr>
       <th>7</th>
+      <td>Ryan</td>
+      <td>Free-Mangina</td>
+    </tr>
+    <tr>
+      <th>8</th>
       <td>Jiwei</td>
       <td>G</td>
     </tr>
     <tr>
-      <th>8</th>
-      <td>Ryan</td>
-      <td>Nags</td>
-    </tr>
-    <tr>
       <th>9</th>
       <td>Andrew</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>Ron</td>
-      <td>Threemen one Kupp</td>
+      <td>Dai</td>
+      <td>Seandon</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>Jake</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Ron</td>
+      <td>Yeebola</td>
     </tr>
   </tbody>
 </table>
@@ -228,7 +228,7 @@ draft_df.head(10)
       <td>QB</td>
       <td>6</td>
       <td>Dak Prescott</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td></td>
       <td></td>
     </tr>
@@ -248,7 +248,7 @@ draft_df.head(10)
       <td>TE</td>
       <td>64</td>
       <td>Rob Gronkowski</td>
-      <td>Evan NOT-Almighty</td>
+      <td>Seandon</td>
       <td></td>
       <td></td>
     </tr>
@@ -258,7 +258,7 @@ draft_df.head(10)
       <td>RB</td>
       <td>60</td>
       <td>Leonard Fournette</td>
-      <td>Ey Yo Nagster</td>
+      <td>Daized and Confused</td>
       <td></td>
       <td></td>
     </tr>
@@ -288,7 +288,7 @@ draft_df.head(10)
       <td>RB</td>
       <td>29</td>
       <td>LeSean McCoy</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td></td>
     </tr>
@@ -298,7 +298,7 @@ draft_df.head(10)
       <td>QB</td>
       <td>11</td>
       <td>Philip Rivers</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td></td>
       <td></td>
     </tr>
@@ -318,7 +318,7 @@ draft_df.head(10)
       <td>WR</td>
       <td>67</td>
       <td>A.J. Green</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td></td>
       <td></td>
     </tr>
@@ -494,7 +494,7 @@ draft_df.head(10)
       <td>QB</td>
       <td>6</td>
       <td>Dak Prescott</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td></td>
       <td></td>
     </tr>
@@ -514,7 +514,7 @@ draft_df.head(10)
       <td>TE</td>
       <td>64</td>
       <td>Rob Gronkowski</td>
-      <td>Evan NOT-Almighty</td>
+      <td>Seandon</td>
       <td></td>
       <td></td>
     </tr>
@@ -524,7 +524,7 @@ draft_df.head(10)
       <td>RB</td>
       <td>60</td>
       <td>Leonard Fournette</td>
-      <td>Ey Yo Nagster</td>
+      <td>Daized and Confused</td>
       <td></td>
       <td></td>
     </tr>
@@ -554,7 +554,7 @@ draft_df.head(10)
       <td>RB</td>
       <td>29</td>
       <td>LeSean McCoy</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td></td>
     </tr>
@@ -564,7 +564,7 @@ draft_df.head(10)
       <td>QB</td>
       <td>11</td>
       <td>Philip Rivers</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td></td>
       <td></td>
     </tr>
@@ -584,7 +584,7 @@ draft_df.head(10)
       <td>WR</td>
       <td>67</td>
       <td>A.J. Green</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td></td>
       <td></td>
     </tr>
@@ -642,7 +642,7 @@ draft_df.head(15)
       <td>QB</td>
       <td>6</td>
       <td>Dak Prescott</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td></td>
       <td>Jake</td>
     </tr>
@@ -662,7 +662,7 @@ draft_df.head(15)
       <td>TE</td>
       <td>64</td>
       <td>Rob Gronkowski</td>
-      <td>Evan NOT-Almighty</td>
+      <td>Seandon</td>
       <td></td>
       <td>Dai</td>
     </tr>
@@ -672,7 +672,7 @@ draft_df.head(15)
       <td>RB</td>
       <td>60</td>
       <td>Leonard Fournette</td>
-      <td>Ey Yo Nagster</td>
+      <td>Daized and Confused</td>
       <td></td>
       <td>Sean</td>
     </tr>
@@ -702,7 +702,7 @@ draft_df.head(15)
       <td>RB</td>
       <td>29</td>
       <td>LeSean McCoy</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td>Ryan</td>
     </tr>
@@ -712,7 +712,7 @@ draft_df.head(15)
       <td>QB</td>
       <td>11</td>
       <td>Philip Rivers</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td></td>
       <td>Andrew</td>
     </tr>
@@ -732,7 +732,7 @@ draft_df.head(15)
       <td>WR</td>
       <td>67</td>
       <td>A.J. Green</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td></td>
       <td>Jake</td>
     </tr>
@@ -752,7 +752,7 @@ draft_df.head(15)
       <td>WR</td>
       <td>41</td>
       <td>Larry Fitzgerald</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td></td>
       <td>Andrew</td>
     </tr>
@@ -772,7 +772,7 @@ draft_df.head(15)
       <td>WR</td>
       <td>60</td>
       <td>Tyreek Hill</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td>Ryan</td>
     </tr>
@@ -782,7 +782,7 @@ draft_df.head(15)
       <td>WR</td>
       <td>71</td>
       <td>Keenan Allen</td>
-      <td>Ey Yo Nagster</td>
+      <td>Daized and Confused</td>
       <td></td>
       <td>Sean</td>
     </tr>
@@ -946,176 +946,6 @@ transaction_df.head(200)
   <tbody>
     <tr>
       <th>0</th>
-      <td>James White</td>
-      <td>Pittsburgh</td>
-      <td>Jake</td>
-      <td>NE</td>
-      <td>RB</td>
-      <td>2</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Mason Crosby</td>
-      <td>Baker Mayfield</td>
-      <td>Matt</td>
-      <td>GB</td>
-      <td>K</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>John Ross</td>
-      <td>Dez Bryant</td>
-      <td>Dai</td>
-      <td>Cin</td>
-      <td>WR</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Austin Hooper</td>
-      <td>Charles Clay</td>
-      <td>Dai</td>
-      <td>Atl</td>
-      <td>TE</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Graham Gano</td>
-      <td>Donte Moncrief</td>
-      <td>Sean</td>
-      <td>Car</td>
-      <td>K</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Allen Hurns</td>
-      <td>LeGarrette Blount</td>
-      <td>Ron</td>
-      <td>Dal</td>
-      <td>WR</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>Quincy Enunwa</td>
-      <td>Denver</td>
-      <td>Ron</td>
-      <td>NYJ</td>
-      <td>WR</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>Jaylen Samuels</td>
-      <td>Austin Hooper</td>
-      <td>Dai</td>
-      <td>Pit</td>
-      <td>RB,TE</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>Geronimo Allison</td>
-      <td>Dede Westbrook</td>
-      <td>Ron</td>
-      <td>GB</td>
-      <td>WR</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>Dede Westbrook</td>
-      <td>Matt Prater</td>
-      <td>Jiwei</td>
-      <td>Jax</td>
-      <td>WR</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>Brandon McManus</td>
-      <td>Jaylen Samuels</td>
-      <td>Dai</td>
-      <td>Den</td>
-      <td>K</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>Phillip Lindsay</td>
-      <td>Matt Breida</td>
-      <td>Matt</td>
-      <td>Den</td>
-      <td>RB</td>
-      <td>15</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>T.J. Yeldon</td>
-      <td>Delanie Walker</td>
-      <td>Sean</td>
-      <td>Jax</td>
-      <td>RB</td>
-      <td>11</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>Austin Ekeler</td>
-      <td>Duke Johnson Jr.</td>
-      <td>Sean</td>
-      <td>LAC</td>
-      <td>RB</td>
-      <td>6</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>Ted Ginn Jr.</td>
-      <td>Jameis Winston</td>
-      <td>Sean</td>
-      <td>NO</td>
-      <td>WR</td>
-      <td>4</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>Antonio Gates</td>
-      <td>Cameron Brate</td>
-      <td>Chi Shing</td>
-      <td>LAC</td>
-      <td>TE</td>
-      <td>3</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>Darren Sproles</td>
-      <td>Houston</td>
-      <td>Chi Shing</td>
-      <td>Phi</td>
-      <td>RB</td>
-      <td>3</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>17</th>
       <td>DeSean Jackson</td>
       <td>DeMarco Murray</td>
       <td>Jake</td>
@@ -1125,7 +955,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>18</th>
+      <th>1</th>
       <td>Denver</td>
       <td>New Orleans</td>
       <td>Sean</td>
@@ -1135,7 +965,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>19</th>
+      <th>2</th>
       <td>Dante Pettis</td>
       <td>D.J. Moore</td>
       <td>Sean</td>
@@ -1145,7 +975,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>20</th>
+      <th>3</th>
       <td>Tyrod Taylor</td>
       <td>Mike Wallace</td>
       <td>Jiwei</td>
@@ -1155,7 +985,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>21</th>
+      <th>4</th>
       <td>Trent Taylor</td>
       <td>Josh Doctson</td>
       <td>Ron</td>
@@ -1165,7 +995,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>22</th>
+      <th>5</th>
       <td>Adam Vinatieri</td>
       <td>Graham Gano</td>
       <td>Sean</td>
@@ -1175,7 +1005,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>23</th>
+      <th>6</th>
       <td>Brandon Marshall</td>
       <td>Brandon McManus</td>
       <td>Dai</td>
@@ -1185,7 +1015,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>24</th>
+      <th>7</th>
       <td>Seattle</td>
       <td>Green Bay</td>
       <td>Ron</td>
@@ -1195,7 +1025,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>25</th>
+      <th>8</th>
       <td>Ryan Grant</td>
       <td>Trent Taylor</td>
       <td>Ron</td>
@@ -1205,7 +1035,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>26</th>
+      <th>9</th>
       <td>Phillip Dorsett</td>
       <td>Greg Olsen</td>
       <td>Chi Shing</td>
@@ -1215,7 +1045,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>27</th>
+      <th>10</th>
       <td>Javorius Allen</td>
       <td>Ben Roethlisberger</td>
       <td>Dai</td>
@@ -1225,7 +1055,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>28</th>
+      <th>11</th>
       <td>Matt Breida</td>
       <td>Allen Hurns</td>
       <td>Ron</td>
@@ -1235,7 +1065,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>29</th>
+      <th>12</th>
       <td>Houston</td>
       <td>Seattle</td>
       <td>Ron</td>
@@ -1245,7 +1075,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>30</th>
+      <th>13</th>
       <td>Ben Roethlisberger</td>
       <td>Jared Goff</td>
       <td>Ron</td>
@@ -1255,7 +1085,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>31</th>
+      <th>14</th>
       <td>Jalen Richard</td>
       <td>John Ross</td>
       <td>Dai</td>
@@ -1265,7 +1095,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>32</th>
+      <th>15</th>
       <td>Jonnu Smith</td>
       <td>Austin Seferian-Jenkins</td>
       <td>Ron</td>
@@ -1275,7 +1105,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>33</th>
+      <th>16</th>
       <td>Antonio Callaway</td>
       <td>Cameron Meredith</td>
       <td>Andrew</td>
@@ -1285,7 +1115,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>34</th>
+      <th>17</th>
       <td>Will Dissly</td>
       <td>Free Agent</td>
       <td>Chi Shing</td>
@@ -1295,7 +1125,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>35</th>
+      <th>18</th>
       <td>Cody Parkey</td>
       <td>Jalen Richard</td>
       <td>Dai</td>
@@ -1305,7 +1135,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>36</th>
+      <th>19</th>
       <td>Ryan Fitzpatrick</td>
       <td>Ted Ginn Jr.</td>
       <td>Sean</td>
@@ -1315,7 +1145,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>37</th>
+      <th>20</th>
       <td>Giovani Bernard</td>
       <td>Ryan Grant</td>
       <td>Ron</td>
@@ -1325,7 +1155,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>38</th>
+      <th>21</th>
       <td>Dan Bailey</td>
       <td>Daniel Carlson</td>
       <td>Ryan</td>
@@ -1335,7 +1165,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>39</th>
+      <th>22</th>
       <td>Jesse James</td>
       <td>Dante Pettis</td>
       <td>Sean</td>
@@ -1345,7 +1175,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>40</th>
+      <th>23</th>
       <td>Jared Goff</td>
       <td>Marcus Mariota</td>
       <td>Matt</td>
@@ -1355,7 +1185,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>41</th>
+      <th>24</th>
       <td>Dallas</td>
       <td>Denver</td>
       <td>Sean</td>
@@ -1365,7 +1195,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>42</th>
+      <th>25</th>
       <td>Josh Lambo</td>
       <td>Adam Vinatieri</td>
       <td>Sean</td>
@@ -1375,7 +1205,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>43</th>
+      <th>26</th>
       <td>Tyler Boyd</td>
       <td>Jonnu Smith</td>
       <td>Ron</td>
@@ -1385,7 +1215,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>44</th>
+      <th>27</th>
       <td>Mark Walton</td>
       <td>Cody Parkey</td>
       <td>Dai</td>
@@ -1395,7 +1225,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>45</th>
+      <th>28</th>
       <td>Malcolm Brown</td>
       <td>Brandon Marshall</td>
       <td>Dai</td>
@@ -1405,7 +1235,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>46</th>
+      <th>29</th>
       <td>Frank Gore</td>
       <td>Antonio Gates</td>
       <td>Chi Shing</td>
@@ -1415,7 +1245,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>47</th>
+      <th>30</th>
       <td>Cleveland</td>
       <td>Carolina</td>
       <td>Chi Shing</td>
@@ -1425,7 +1255,27 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>48</th>
+      <th>31</th>
+      <td>Greg Olsen</td>
+      <td>Ricky Seals-Jones</td>
+      <td>Jake</td>
+      <td>Car</td>
+      <td>TE</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>Corey Grant</td>
+      <td>Free Agent</td>
+      <td>Dai</td>
+      <td>Jax</td>
+      <td>RB</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>33</th>
       <td>Ted Ginn Jr.</td>
       <td>Michael Gallup</td>
       <td>Doug</td>
@@ -1435,7 +1285,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>49</th>
+      <th>34</th>
       <td>Ito Smith</td>
       <td>Alex Smith</td>
       <td>Ron</td>
@@ -1445,7 +1295,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>50</th>
+      <th>35</th>
       <td>Nyheim Hines</td>
       <td>Ronald Jones II</td>
       <td>Andrew</td>
@@ -1455,7 +1305,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>51</th>
+      <th>36</th>
       <td>Theo Riddick</td>
       <td>Darren Sproles</td>
       <td>Chi Shing</td>
@@ -1465,7 +1315,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>52</th>
+      <th>37</th>
       <td>Chandler Catanzaro</td>
       <td>Greg Zuerlein</td>
       <td>Jiwei</td>
@@ -1475,7 +1325,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>53</th>
+      <th>38</th>
       <td>Matt Prater</td>
       <td>Corey Grant</td>
       <td>Dai</td>
@@ -1485,7 +1335,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>54</th>
+      <th>39</th>
       <td>Christian Kirk</td>
       <td>Mark Walton</td>
       <td>Dai</td>
@@ -1495,7 +1345,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>55</th>
+      <th>40</th>
       <td>Ronald Jones II</td>
       <td>Jamison Crowder</td>
       <td>Dai</td>
@@ -1505,7 +1355,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>56</th>
+      <th>41</th>
       <td>Jordy Nelson</td>
       <td>Tyrod Taylor</td>
       <td>Jiwei</td>
@@ -1515,7 +1365,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>57</th>
+      <th>42</th>
       <td>Ryan Tannehill</td>
       <td>Doug Martin</td>
       <td>Doug</td>
@@ -1525,7 +1375,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>58</th>
+      <th>43</th>
       <td>Baker Mayfield</td>
       <td>Austin Ekeler</td>
       <td>Sean</td>
@@ -1535,7 +1385,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>59</th>
+      <th>44</th>
       <td>Chris Ivory</td>
       <td>Spencer Ware</td>
       <td>Jiwei</td>
@@ -1545,7 +1395,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>60</th>
+      <th>45</th>
       <td>Dallas Goedert</td>
       <td>Jesse James</td>
       <td>Sean</td>
@@ -1555,7 +1405,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>61</th>
+      <th>46</th>
       <td>Austin Hooper</td>
       <td>Anthony Miller</td>
       <td>Andrew</td>
@@ -1565,7 +1415,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>62</th>
+      <th>47</th>
       <td>Seattle</td>
       <td>Dallas</td>
       <td>Sean</td>
@@ -1575,27 +1425,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>63</th>
-      <td>Jordan Matthews</td>
-      <td>Jimmy Garoppolo</td>
-      <td>Chi Shing</td>
-      <td>Phi</td>
-      <td>WR</td>
-      <td>2</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>64</th>
-      <td>Andy Dalton</td>
-      <td>Ito Smith</td>
-      <td>Ron</td>
-      <td>Cin</td>
-      <td>QB</td>
-      <td>1</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>65</th>
+      <th>48</th>
       <td>Green Bay</td>
       <td>Minnesota</td>
       <td>Dai</td>
@@ -1605,7 +1435,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>66</th>
+      <th>49</th>
       <td>Tennessee</td>
       <td>Houston</td>
       <td>Ron</td>
@@ -1615,7 +1445,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>67</th>
+      <th>50</th>
       <td>Albert Wilson</td>
       <td>Pierre Garcon</td>
       <td>Doug</td>
@@ -1625,7 +1455,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>68</th>
+      <th>51</th>
       <td>Rhett Ellison</td>
       <td>Tyler Eifert</td>
       <td>Doug</td>
@@ -1635,7 +1465,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>69</th>
+      <th>52</th>
       <td>Vance McDonald</td>
       <td>Rex Burkhead</td>
       <td>Jiwei</td>
@@ -1645,7 +1475,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>70</th>
+      <th>53</th>
       <td>Tavon Austin</td>
       <td>Rishard Matthews</td>
       <td>Ryan</td>
@@ -1655,7 +1485,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>71</th>
+      <th>54</th>
       <td>Randy Bullock</td>
       <td>Josh Lambo</td>
       <td>Sean</td>
@@ -1665,7 +1495,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>72</th>
+      <th>55</th>
       <td>Austin Ekeler</td>
       <td>Malcolm Brown</td>
       <td>Dai</td>
@@ -1675,7 +1505,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>73</th>
+      <th>56</th>
       <td>Tyler Eifert</td>
       <td>Free Agent</td>
       <td>Andrew</td>
@@ -1685,7 +1515,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>74</th>
+      <th>57</th>
       <td>Mike Davis</td>
       <td>David Njoku</td>
       <td>Jiwei</td>
@@ -1695,7 +1525,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>75</th>
+      <th>58</th>
       <td>D.J. Moore</td>
       <td>Jamaal Williams</td>
       <td>Dai</td>
@@ -1705,7 +1535,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>76</th>
+      <th>59</th>
       <td>David Njoku</td>
       <td>Tyler Eifert</td>
       <td>Andrew</td>
@@ -1715,7 +1545,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>77</th>
+      <th>60</th>
       <td>Taylor Gabriel</td>
       <td>Rashaad Penny</td>
       <td>Jake</td>
@@ -1725,7 +1555,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>78</th>
+      <th>61</th>
       <td>Keke Coutee</td>
       <td>Sam Darnold</td>
       <td>Matt</td>
@@ -1735,7 +1565,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>79</th>
+      <th>62</th>
       <td>Cameron Brate</td>
       <td>Ryan Tannehill</td>
       <td>Doug</td>
@@ -1745,7 +1575,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>80</th>
+      <th>63</th>
       <td>Ryan Grant</td>
       <td>Chris Hogan</td>
       <td>Sean</td>
@@ -1755,7 +1585,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>81</th>
+      <th>64</th>
       <td>Carolina</td>
       <td>Seattle</td>
       <td>Sean</td>
@@ -1765,7 +1595,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>82</th>
+      <th>65</th>
       <td>Denver</td>
       <td>Los Angeles</td>
       <td>Doug</td>
@@ -1775,7 +1605,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>83</th>
+      <th>66</th>
       <td>Marlon Mack</td>
       <td>Jordan Wilkins</td>
       <td>Dai</td>
@@ -1785,7 +1615,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>84</th>
+      <th>67</th>
       <td>Taywan Taylor</td>
       <td>Matt Prater</td>
       <td>Dai</td>
@@ -1795,7 +1625,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>85</th>
+      <th>68</th>
       <td>Austin Hooper</td>
       <td>Alfred Morris</td>
       <td>Dai</td>
@@ -1805,7 +1635,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>86</th>
+      <th>69</th>
       <td>Cincinnati</td>
       <td>Green Bay</td>
       <td>Dai</td>
@@ -1815,7 +1645,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>87</th>
+      <th>70</th>
       <td>Mohamed Sanu</td>
       <td>Ryan Fitzpatrick</td>
       <td>Sean</td>
@@ -1825,7 +1655,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>88</th>
+      <th>71</th>
       <td>Rod Smith</td>
       <td>Marlon Mack</td>
       <td>Dai</td>
@@ -1835,7 +1665,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>89</th>
+      <th>72</th>
       <td>Geoff Swaim</td>
       <td>Albert Wilson</td>
       <td>Doug</td>
@@ -1845,7 +1675,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>90</th>
+      <th>73</th>
       <td>C.J. Uzomah</td>
       <td>Will Dissly</td>
       <td>Chi Shing</td>
@@ -1855,7 +1685,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>91</th>
+      <th>74</th>
       <td>Marquez Valdes-Scantling</td>
       <td>Austin Hooper</td>
       <td>Dai</td>
@@ -1865,7 +1695,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>92</th>
+      <th>75</th>
       <td>San Francisco</td>
       <td>Tavon Austin</td>
       <td>Ryan</td>
@@ -1875,7 +1705,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>93</th>
+      <th>76</th>
       <td>Ryan Succop</td>
       <td>Chandler Catanzaro</td>
       <td>Jiwei</td>
@@ -1885,7 +1715,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>94</th>
+      <th>77</th>
       <td>Corey Grant</td>
       <td>Free Agent</td>
       <td>Rajiv</td>
@@ -1895,7 +1725,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>95</th>
+      <th>78</th>
       <td>Houston</td>
       <td>Atlanta</td>
       <td>Rajiv</td>
@@ -1905,7 +1735,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>96</th>
+      <th>79</th>
       <td>Rashaad Penny</td>
       <td>Rod Smith</td>
       <td>Dai</td>
@@ -1915,7 +1745,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>97</th>
+      <th>80</th>
       <td>Austin Hooper</td>
       <td>Robbie Gould</td>
       <td>Rajiv</td>
@@ -1925,7 +1755,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>98</th>
+      <th>81</th>
       <td>Alfred Blue</td>
       <td>Chris Ivory</td>
       <td>Jiwei</td>
@@ -1935,7 +1765,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>99</th>
+      <th>82</th>
       <td>Brett Maher</td>
       <td>Taywan Taylor</td>
       <td>Dai</td>
@@ -1945,7 +1775,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>100</th>
+      <th>83</th>
       <td>Jameis Winston</td>
       <td>Nelson Agholor</td>
       <td>Dai</td>
@@ -1955,7 +1785,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>101</th>
+      <th>84</th>
       <td>Wendell Smallwood</td>
       <td>Ryan Grant</td>
       <td>Sean</td>
@@ -1965,7 +1795,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>102</th>
+      <th>85</th>
       <td>Marlon Mack</td>
       <td>Giovani Bernard</td>
       <td>Ron</td>
@@ -1975,7 +1805,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>103</th>
+      <th>86</th>
       <td>D'Onta Foreman</td>
       <td>$2  Waiver</td>
       <td>Sean</td>
@@ -1985,7 +1815,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>104</th>
+      <th>87</th>
       <td>Minnesota</td>
       <td>Carolina</td>
       <td>Sean</td>
@@ -1995,7 +1825,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>105</th>
+      <th>88</th>
       <td>David Moore</td>
       <td>Peyton Barber</td>
       <td>Chi Shing</td>
@@ -2005,7 +1835,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>106</th>
+      <th>89</th>
       <td>Green Bay</td>
       <td>Cincinnati</td>
       <td>Dai</td>
@@ -2015,7 +1845,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>107</th>
+      <th>90</th>
       <td>Greg Zuerlein</td>
       <td>Mason Crosby</td>
       <td>Matt</td>
@@ -2025,7 +1855,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>108</th>
+      <th>91</th>
       <td>Ka'imi Fairbairn</td>
       <td>Brett Maher</td>
       <td>Dai</td>
@@ -2035,7 +1865,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>109</th>
+      <th>92</th>
       <td>Los Angeles</td>
       <td>Tennessee</td>
       <td>Ron</td>
@@ -2045,7 +1875,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>110</th>
+      <th>93</th>
       <td>Sebastian Janikowski</td>
       <td>Greg Zuerlein</td>
       <td>Matt</td>
@@ -2055,7 +1885,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>111</th>
+      <th>94</th>
       <td>Ito Smith</td>
       <td>Rhett Ellison</td>
       <td>Doug</td>
@@ -2065,7 +1895,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>112</th>
+      <th>95</th>
       <td>Seattle</td>
       <td>Denver</td>
       <td>Doug</td>
@@ -2075,11 +1905,201 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>113</th>
+      <th>96</th>
       <td>Mason Crosby</td>
       <td>Robby Anderson</td>
       <td>Evan</td>
       <td>GB</td>
+      <td>K</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>Kapri Bibbs</td>
+      <td>Marquez Valdes-Scantling</td>
+      <td>Dai</td>
+      <td>Was</td>
+      <td>RB</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>Alfred Morris</td>
+      <td>Kapri Bibbs</td>
+      <td>Dai</td>
+      <td>SF</td>
+      <td>RB</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>Kyle Juszczyk</td>
+      <td>Ted Ginn Jr.</td>
+      <td>Doug</td>
+      <td>SF</td>
+      <td>RB</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>100</th>
+      <td>Mitchell Trubisky</td>
+      <td>Derrick Henry</td>
+      <td>Andrew</td>
+      <td>Chi</td>
+      <td>QB</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>Chester Rogers</td>
+      <td>Geoff Swaim</td>
+      <td>Doug</td>
+      <td>Ind</td>
+      <td>WR</td>
+      <td>6</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>102</th>
+      <td>Greg Zuerlein</td>
+      <td>Matt Bryant</td>
+      <td>Ron</td>
+      <td>LAR</td>
+      <td>K</td>
+      <td>6</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>103</th>
+      <td>Giovani Bernard</td>
+      <td>Mason Crosby</td>
+      <td>Evan</td>
+      <td>Cin</td>
+      <td>RB</td>
+      <td>5</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>104</th>
+      <td>Raheem Mostert</td>
+      <td>Arizona</td>
+      <td>Evan</td>
+      <td>SF</td>
+      <td>RB</td>
+      <td>4</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>105</th>
+      <td>Willie Snead IV</td>
+      <td>Randall Cobb</td>
+      <td>Jake</td>
+      <td>Bal</td>
+      <td>WR</td>
+      <td>3</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>106</th>
+      <td>Ricky Seals-Jones</td>
+      <td>Quincy Enunwa</td>
+      <td>Ron</td>
+      <td>Ari</td>
+      <td>TE</td>
+      <td>2</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>107</th>
+      <td>New York</td>
+      <td>Seattle</td>
+      <td>Doug</td>
+      <td>NYJ</td>
+      <td>DEF</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>108</th>
+      <td>Indianapolis</td>
+      <td>Minnesota</td>
+      <td>Sean</td>
+      <td>Ind</td>
+      <td>DEF</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>109</th>
+      <td>Brett Maher</td>
+      <td>Randy Bullock</td>
+      <td>Sean</td>
+      <td>Dal</td>
+      <td>K</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>110</th>
+      <td>Adam Vinatieri</td>
+      <td>Chris Boswell</td>
+      <td>Chi Shing</td>
+      <td>Ind</td>
+      <td>K</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>111</th>
+      <td>Nelson Agholor</td>
+      <td>Jordan Matthews</td>
+      <td>Chi Shing</td>
+      <td>Phi</td>
+      <td>WR</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>112</th>
+      <td>Tre'Quan Smith</td>
+      <td>Alfred Morris</td>
+      <td>Dai</td>
+      <td>NO</td>
+      <td>WR</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>113</th>
+      <td>Buffalo</td>
+      <td>Green Bay</td>
+      <td>Dai</td>
+      <td>Buf</td>
+      <td>DEF</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>114</th>
+      <td>Peyton Barber</td>
+      <td>Tre'Quan Smith</td>
+      <td>Dai</td>
+      <td>TB</td>
+      <td>RB</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>115</th>
+      <td>Giorgio Tavecchio</td>
+      <td>Sebastian Janikowski</td>
+      <td>Matt</td>
+      <td>Atl</td>
       <td>K</td>
       <td>0</td>
       <td>waiver</td>
@@ -2140,176 +2160,6 @@ transaction_df.head(200)
   <tbody>
     <tr>
       <th>0.0</th>
-      <td>James White</td>
-      <td>Pittsburgh</td>
-      <td>Jake</td>
-      <td>NE</td>
-      <td>RB</td>
-      <td>2</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>1.0</th>
-      <td>Mason Crosby</td>
-      <td>Baker Mayfield</td>
-      <td>Matt</td>
-      <td>GB</td>
-      <td>K</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>2.0</th>
-      <td>John Ross</td>
-      <td>Dez Bryant</td>
-      <td>Dai</td>
-      <td>Cin</td>
-      <td>WR</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>3.0</th>
-      <td>Austin Hooper</td>
-      <td>Charles Clay</td>
-      <td>Dai</td>
-      <td>Atl</td>
-      <td>TE</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>4.0</th>
-      <td>Graham Gano</td>
-      <td>Donte Moncrief</td>
-      <td>Sean</td>
-      <td>Car</td>
-      <td>K</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>5.0</th>
-      <td>Allen Hurns</td>
-      <td>LeGarrette Blount</td>
-      <td>Ron</td>
-      <td>Dal</td>
-      <td>WR</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>6.0</th>
-      <td>Quincy Enunwa</td>
-      <td>Denver</td>
-      <td>Ron</td>
-      <td>NYJ</td>
-      <td>WR</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>7.0</th>
-      <td>Jaylen Samuels</td>
-      <td>Austin Hooper</td>
-      <td>Dai</td>
-      <td>Pit</td>
-      <td>RB,TE</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>8.0</th>
-      <td>Geronimo Allison</td>
-      <td>Dede Westbrook</td>
-      <td>Ron</td>
-      <td>GB</td>
-      <td>WR</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>9.0</th>
-      <td>Dede Westbrook</td>
-      <td>Matt Prater</td>
-      <td>Jiwei</td>
-      <td>Jax</td>
-      <td>WR</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>10.0</th>
-      <td>Brandon McManus</td>
-      <td>Jaylen Samuels</td>
-      <td>Dai</td>
-      <td>Den</td>
-      <td>K</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>11.0</th>
-      <td>Phillip Lindsay</td>
-      <td>Matt Breida</td>
-      <td>Matt</td>
-      <td>Den</td>
-      <td>RB</td>
-      <td>15</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>12.0</th>
-      <td>T.J. Yeldon</td>
-      <td>Delanie Walker</td>
-      <td>Sean</td>
-      <td>Jax</td>
-      <td>RB</td>
-      <td>11</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>13.0</th>
-      <td>Austin Ekeler</td>
-      <td>Duke Johnson Jr.</td>
-      <td>Sean</td>
-      <td>LAC</td>
-      <td>RB</td>
-      <td>6</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>14.0</th>
-      <td>Ted Ginn Jr.</td>
-      <td>Jameis Winston</td>
-      <td>Sean</td>
-      <td>NO</td>
-      <td>WR</td>
-      <td>4</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>15.0</th>
-      <td>Antonio Gates</td>
-      <td>Cameron Brate</td>
-      <td>Chi Shing</td>
-      <td>LAC</td>
-      <td>TE</td>
-      <td>3</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>16.0</th>
-      <td>Darren Sproles</td>
-      <td>Houston</td>
-      <td>Chi Shing</td>
-      <td>Phi</td>
-      <td>RB</td>
-      <td>3</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>17.0</th>
       <td>DeSean Jackson</td>
       <td>DeMarco Murray</td>
       <td>Jake</td>
@@ -2319,7 +2169,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>18.0</th>
+      <th>1.0</th>
       <td>Denver</td>
       <td>New Orleans</td>
       <td>Sean</td>
@@ -2329,7 +2179,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>19.0</th>
+      <th>2.0</th>
       <td>Dante Pettis</td>
       <td>D.J. Moore</td>
       <td>Sean</td>
@@ -2339,7 +2189,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>20.0</th>
+      <th>3.0</th>
       <td>Tyrod Taylor</td>
       <td>Mike Wallace</td>
       <td>Jiwei</td>
@@ -2349,7 +2199,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>21.0</th>
+      <th>4.0</th>
       <td>Trent Taylor</td>
       <td>Josh Doctson</td>
       <td>Ron</td>
@@ -2359,7 +2209,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>22.0</th>
+      <th>5.0</th>
       <td>Adam Vinatieri</td>
       <td>Graham Gano</td>
       <td>Sean</td>
@@ -2369,7 +2219,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>23.0</th>
+      <th>6.0</th>
       <td>Brandon Marshall</td>
       <td>Brandon McManus</td>
       <td>Dai</td>
@@ -2379,7 +2229,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>24.0</th>
+      <th>7.0</th>
       <td>Seattle</td>
       <td>Green Bay</td>
       <td>Ron</td>
@@ -2389,7 +2239,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>25.0</th>
+      <th>8.0</th>
       <td>Ryan Grant</td>
       <td>Trent Taylor</td>
       <td>Ron</td>
@@ -2399,7 +2249,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>26.0</th>
+      <th>9.0</th>
       <td>Phillip Dorsett</td>
       <td>Greg Olsen</td>
       <td>Chi Shing</td>
@@ -2409,7 +2259,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>27.0</th>
+      <th>10.0</th>
       <td>Javorius Allen</td>
       <td>Ben Roethlisberger</td>
       <td>Dai</td>
@@ -2419,7 +2269,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>28.0</th>
+      <th>11.0</th>
       <td>Matt Breida</td>
       <td>Allen Hurns</td>
       <td>Ron</td>
@@ -2429,7 +2279,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>29.0</th>
+      <th>12.0</th>
       <td>Houston</td>
       <td>Seattle</td>
       <td>Ron</td>
@@ -2439,7 +2289,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>30.0</th>
+      <th>13.0</th>
       <td>Ben Roethlisberger</td>
       <td>Jared Goff</td>
       <td>Ron</td>
@@ -2449,7 +2299,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>31.0</th>
+      <th>14.0</th>
       <td>Jalen Richard</td>
       <td>John Ross</td>
       <td>Dai</td>
@@ -2459,7 +2309,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>32.0</th>
+      <th>15.0</th>
       <td>Jonnu Smith</td>
       <td>Austin Seferian-Jenkins</td>
       <td>Ron</td>
@@ -2469,7 +2319,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>33.0</th>
+      <th>16.0</th>
       <td>Antonio Callaway</td>
       <td>Cameron Meredith</td>
       <td>Andrew</td>
@@ -2479,7 +2329,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>34.0</th>
+      <th>17.0</th>
       <td>Will Dissly</td>
       <td>Free Agent</td>
       <td>Chi Shing</td>
@@ -2489,7 +2339,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>35.0</th>
+      <th>18.0</th>
       <td>Cody Parkey</td>
       <td>Jalen Richard</td>
       <td>Dai</td>
@@ -2499,7 +2349,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>36.0</th>
+      <th>19.0</th>
       <td>Ryan Fitzpatrick</td>
       <td>Ted Ginn Jr.</td>
       <td>Sean</td>
@@ -2509,7 +2359,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>37.0</th>
+      <th>20.0</th>
       <td>Giovani Bernard</td>
       <td>Ryan Grant</td>
       <td>Ron</td>
@@ -2519,7 +2369,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>38.0</th>
+      <th>21.0</th>
       <td>Dan Bailey</td>
       <td>Daniel Carlson</td>
       <td>Ryan</td>
@@ -2529,7 +2379,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>39.0</th>
+      <th>22.0</th>
       <td>Jesse James</td>
       <td>Dante Pettis</td>
       <td>Sean</td>
@@ -2539,7 +2389,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>40.0</th>
+      <th>23.0</th>
       <td>Jared Goff</td>
       <td>Marcus Mariota</td>
       <td>Matt</td>
@@ -2549,7 +2399,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>41.0</th>
+      <th>24.0</th>
       <td>Dallas</td>
       <td>Denver</td>
       <td>Sean</td>
@@ -2559,7 +2409,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>42.0</th>
+      <th>25.0</th>
       <td>Josh Lambo</td>
       <td>Adam Vinatieri</td>
       <td>Sean</td>
@@ -2569,7 +2419,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>43.0</th>
+      <th>26.0</th>
       <td>Tyler Boyd</td>
       <td>Jonnu Smith</td>
       <td>Ron</td>
@@ -2579,7 +2429,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>44.0</th>
+      <th>27.0</th>
       <td>Mark Walton</td>
       <td>Cody Parkey</td>
       <td>Dai</td>
@@ -2589,7 +2439,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>45.0</th>
+      <th>28.0</th>
       <td>Malcolm Brown</td>
       <td>Brandon Marshall</td>
       <td>Dai</td>
@@ -2599,7 +2449,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>46.0</th>
+      <th>29.0</th>
       <td>Frank Gore</td>
       <td>Antonio Gates</td>
       <td>Chi Shing</td>
@@ -2609,7 +2459,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>47.0</th>
+      <th>30.0</th>
       <td>Cleveland</td>
       <td>Carolina</td>
       <td>Chi Shing</td>
@@ -2619,7 +2469,27 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>48.0</th>
+      <th>31.0</th>
+      <td>Greg Olsen</td>
+      <td>Ricky Seals-Jones</td>
+      <td>Jake</td>
+      <td>Car</td>
+      <td>TE</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>32.0</th>
+      <td>Corey Grant</td>
+      <td>Free Agent</td>
+      <td>Dai</td>
+      <td>Jax</td>
+      <td>RB</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>33.0</th>
       <td>Ted Ginn Jr.</td>
       <td>Michael Gallup</td>
       <td>Doug</td>
@@ -2629,7 +2499,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>49.0</th>
+      <th>34.0</th>
       <td>Ito Smith</td>
       <td>Alex Smith</td>
       <td>Ron</td>
@@ -2639,7 +2509,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>50.0</th>
+      <th>35.0</th>
       <td>Nyheim Hines</td>
       <td>Ronald Jones II</td>
       <td>Andrew</td>
@@ -2649,7 +2519,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>51.0</th>
+      <th>36.0</th>
       <td>Theo Riddick</td>
       <td>Darren Sproles</td>
       <td>Chi Shing</td>
@@ -2659,7 +2529,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>52.0</th>
+      <th>37.0</th>
       <td>Chandler Catanzaro</td>
       <td>Greg Zuerlein</td>
       <td>Jiwei</td>
@@ -2669,12 +2539,162 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>53.0</th>
+      <th>38.0</th>
       <td>Matt Prater</td>
       <td>Corey Grant</td>
       <td>Dai</td>
       <td>Det</td>
       <td>K</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>39.0</th>
+      <td>Christian Kirk</td>
+      <td>Mark Walton</td>
+      <td>Dai</td>
+      <td>Ari</td>
+      <td>WR</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>40.0</th>
+      <td>Ronald Jones II</td>
+      <td>Jamison Crowder</td>
+      <td>Dai</td>
+      <td>TB</td>
+      <td>RB</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>41.0</th>
+      <td>Jordy Nelson</td>
+      <td>Tyrod Taylor</td>
+      <td>Jiwei</td>
+      <td>Oak</td>
+      <td>WR</td>
+      <td>7</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>42.0</th>
+      <td>Ryan Tannehill</td>
+      <td>Doug Martin</td>
+      <td>Doug</td>
+      <td>Mia</td>
+      <td>QB</td>
+      <td>6</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>43.0</th>
+      <td>Baker Mayfield</td>
+      <td>Austin Ekeler</td>
+      <td>Sean</td>
+      <td>Cle</td>
+      <td>QB</td>
+      <td>6</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>44.0</th>
+      <td>Chris Ivory</td>
+      <td>Spencer Ware</td>
+      <td>Jiwei</td>
+      <td>Buf</td>
+      <td>RB</td>
+      <td>5</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>45.0</th>
+      <td>Dallas Goedert</td>
+      <td>Jesse James</td>
+      <td>Sean</td>
+      <td>Phi</td>
+      <td>TE</td>
+      <td>4</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>46.0</th>
+      <td>Austin Hooper</td>
+      <td>Anthony Miller</td>
+      <td>Andrew</td>
+      <td>Atl</td>
+      <td>TE</td>
+      <td>3</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>47.0</th>
+      <td>Seattle</td>
+      <td>Dallas</td>
+      <td>Sean</td>
+      <td>Sea</td>
+      <td>DEF</td>
+      <td>2</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>48.0</th>
+      <td>Green Bay</td>
+      <td>Minnesota</td>
+      <td>Dai</td>
+      <td>GB</td>
+      <td>DEF</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>49.0</th>
+      <td>Tennessee</td>
+      <td>Houston</td>
+      <td>Ron</td>
+      <td>Ten</td>
+      <td>DEF</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>50.0</th>
+      <td>Albert Wilson</td>
+      <td>Pierre Garcon</td>
+      <td>Doug</td>
+      <td>Mia</td>
+      <td>WR</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>51.0</th>
+      <td>Rhett Ellison</td>
+      <td>Tyler Eifert</td>
+      <td>Doug</td>
+      <td>NYG</td>
+      <td>TE</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>52.0</th>
+      <td>Vance McDonald</td>
+      <td>Rex Burkhead</td>
+      <td>Jiwei</td>
+      <td>Pit</td>
+      <td>TE</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>53.0</th>
+      <td>Tavon Austin</td>
+      <td>Rishard Matthews</td>
+      <td>Ryan</td>
+      <td>Dal</td>
+      <td>WR,RB</td>
       <td>0</td>
       <td>waiver</td>
     </tr>
@@ -2700,131 +2720,131 @@ transaction_df.head(200)
     </tr>
     <tr>
       <th>54.0</th>
-      <td>Christian Kirk</td>
-      <td>Mark Walton</td>
-      <td>Dai</td>
-      <td>Ari</td>
-      <td>WR</td>
+      <td>Randy Bullock</td>
+      <td>Josh Lambo</td>
+      <td>Sean</td>
+      <td>Cin</td>
+      <td>K</td>
       <td>0</td>
       <td>waiver</td>
     </tr>
     <tr>
       <th>55.0</th>
-      <td>Ronald Jones II</td>
-      <td>Jamison Crowder</td>
+      <td>Austin Ekeler</td>
+      <td>Malcolm Brown</td>
       <td>Dai</td>
-      <td>TB</td>
+      <td>LAC</td>
+      <td>RB</td>
+      <td>1</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>56.0</th>
+      <td>Tyler Eifert</td>
+      <td>Free Agent</td>
+      <td>Andrew</td>
+      <td>Cin</td>
+      <td>TE</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>57.0</th>
+      <td>Mike Davis</td>
+      <td>David Njoku</td>
+      <td>Jiwei</td>
+      <td>Sea</td>
       <td>RB</td>
       <td>0</td>
       <td>waiver</td>
     </tr>
     <tr>
-      <th>56.0</th>
-      <td>Jordy Nelson</td>
-      <td>Tyrod Taylor</td>
-      <td>Jiwei</td>
-      <td>Oak</td>
-      <td>WR</td>
-      <td>7</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>57.0</th>
-      <td>Ryan Tannehill</td>
-      <td>Doug Martin</td>
-      <td>Doug</td>
-      <td>Mia</td>
-      <td>QB</td>
-      <td>6</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
       <th>58.0</th>
-      <td>Baker Mayfield</td>
-      <td>Austin Ekeler</td>
-      <td>Sean</td>
-      <td>Cle</td>
-      <td>QB</td>
-      <td>6</td>
+      <td>D.J. Moore</td>
+      <td>Jamaal Williams</td>
+      <td>Dai</td>
+      <td>Car</td>
+      <td>WR</td>
+      <td>0</td>
       <td>waiver</td>
     </tr>
     <tr>
       <th>59.0</th>
-      <td>Chris Ivory</td>
-      <td>Spencer Ware</td>
-      <td>Jiwei</td>
-      <td>Buf</td>
-      <td>RB</td>
-      <td>5</td>
+      <td>David Njoku</td>
+      <td>Tyler Eifert</td>
+      <td>Andrew</td>
+      <td>Cle</td>
+      <td>TE</td>
+      <td>10</td>
       <td>waiver</td>
     </tr>
     <tr>
       <th>60.0</th>
-      <td>Dallas Goedert</td>
-      <td>Jesse James</td>
-      <td>Sean</td>
-      <td>Phi</td>
-      <td>TE</td>
-      <td>4</td>
+      <td>Taylor Gabriel</td>
+      <td>Rashaad Penny</td>
+      <td>Jake</td>
+      <td>Chi</td>
+      <td>WR</td>
+      <td>5</td>
       <td>waiver</td>
     </tr>
     <tr>
       <th>61.0</th>
-      <td>Austin Hooper</td>
-      <td>Anthony Miller</td>
-      <td>Andrew</td>
-      <td>Atl</td>
+      <td>Keke Coutee</td>
+      <td>Sam Darnold</td>
+      <td>Matt</td>
+      <td>Hou</td>
+      <td>WR</td>
+      <td>4</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>62.0</th>
+      <td>Cameron Brate</td>
+      <td>Ryan Tannehill</td>
+      <td>Doug</td>
+      <td>TB</td>
       <td>TE</td>
       <td>3</td>
       <td>waiver</td>
     </tr>
     <tr>
-      <th>62.0</th>
-      <td>Seattle</td>
-      <td>Dallas</td>
-      <td>Sean</td>
-      <td>Sea</td>
-      <td>DEF</td>
-      <td>2</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
       <th>63.0</th>
-      <td>Jordan Matthews</td>
-      <td>Jimmy Garoppolo</td>
-      <td>Chi Shing</td>
-      <td>Phi</td>
+      <td>Ryan Grant</td>
+      <td>Chris Hogan</td>
+      <td>Sean</td>
+      <td>Ind</td>
       <td>WR</td>
       <td>2</td>
       <td>waiver</td>
     </tr>
     <tr>
       <th>64.0</th>
-      <td>Andy Dalton</td>
-      <td>Ito Smith</td>
-      <td>Ron</td>
-      <td>Cin</td>
-      <td>QB</td>
+      <td>Carolina</td>
+      <td>Seattle</td>
+      <td>Sean</td>
+      <td>Car</td>
+      <td>DEF</td>
       <td>1</td>
       <td>waiver</td>
     </tr>
     <tr>
       <th>65.0</th>
-      <td>Green Bay</td>
-      <td>Minnesota</td>
-      <td>Dai</td>
-      <td>GB</td>
+      <td>Denver</td>
+      <td>Los Angeles</td>
+      <td>Doug</td>
+      <td>Den</td>
       <td>DEF</td>
       <td>0</td>
       <td>waiver</td>
     </tr>
     <tr>
       <th>66.0</th>
-      <td>Tennessee</td>
-      <td>Houston</td>
-      <td>Ron</td>
-      <td>Ten</td>
-      <td>DEF</td>
+      <td>Marlon Mack</td>
+      <td>Jordan Wilkins</td>
+      <td>Dai</td>
+      <td>Ind</td>
+      <td>RB</td>
       <td>0</td>
       <td>waiver</td>
     </tr>
@@ -2850,176 +2870,6 @@ transaction_df.head(200)
     </tr>
     <tr>
       <th>67.0</th>
-      <td>Albert Wilson</td>
-      <td>Pierre Garcon</td>
-      <td>Doug</td>
-      <td>Mia</td>
-      <td>WR</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>68.0</th>
-      <td>Rhett Ellison</td>
-      <td>Tyler Eifert</td>
-      <td>Doug</td>
-      <td>NYG</td>
-      <td>TE</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>69.0</th>
-      <td>Vance McDonald</td>
-      <td>Rex Burkhead</td>
-      <td>Jiwei</td>
-      <td>Pit</td>
-      <td>TE</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>70.0</th>
-      <td>Tavon Austin</td>
-      <td>Rishard Matthews</td>
-      <td>Ryan</td>
-      <td>Dal</td>
-      <td>WR,RB</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>71.0</th>
-      <td>Randy Bullock</td>
-      <td>Josh Lambo</td>
-      <td>Sean</td>
-      <td>Cin</td>
-      <td>K</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>72.0</th>
-      <td>Austin Ekeler</td>
-      <td>Malcolm Brown</td>
-      <td>Dai</td>
-      <td>LAC</td>
-      <td>RB</td>
-      <td>1</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>73.0</th>
-      <td>Tyler Eifert</td>
-      <td>Free Agent</td>
-      <td>Andrew</td>
-      <td>Cin</td>
-      <td>TE</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>74.0</th>
-      <td>Mike Davis</td>
-      <td>David Njoku</td>
-      <td>Jiwei</td>
-      <td>Sea</td>
-      <td>RB</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>75.0</th>
-      <td>D.J. Moore</td>
-      <td>Jamaal Williams</td>
-      <td>Dai</td>
-      <td>Car</td>
-      <td>WR</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>76.0</th>
-      <td>David Njoku</td>
-      <td>Tyler Eifert</td>
-      <td>Andrew</td>
-      <td>Cle</td>
-      <td>TE</td>
-      <td>10</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>77.0</th>
-      <td>Taylor Gabriel</td>
-      <td>Rashaad Penny</td>
-      <td>Jake</td>
-      <td>Chi</td>
-      <td>WR</td>
-      <td>5</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>78.0</th>
-      <td>Keke Coutee</td>
-      <td>Sam Darnold</td>
-      <td>Matt</td>
-      <td>Hou</td>
-      <td>WR</td>
-      <td>4</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>79.0</th>
-      <td>Cameron Brate</td>
-      <td>Ryan Tannehill</td>
-      <td>Doug</td>
-      <td>TB</td>
-      <td>TE</td>
-      <td>3</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>80.0</th>
-      <td>Ryan Grant</td>
-      <td>Chris Hogan</td>
-      <td>Sean</td>
-      <td>Ind</td>
-      <td>WR</td>
-      <td>2</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>81.0</th>
-      <td>Carolina</td>
-      <td>Seattle</td>
-      <td>Sean</td>
-      <td>Car</td>
-      <td>DEF</td>
-      <td>1</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>82.0</th>
-      <td>Denver</td>
-      <td>Los Angeles</td>
-      <td>Doug</td>
-      <td>Den</td>
-      <td>DEF</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>83.0</th>
-      <td>Marlon Mack</td>
-      <td>Jordan Wilkins</td>
-      <td>Dai</td>
-      <td>Ind</td>
-      <td>RB</td>
-      <td>0</td>
-      <td>waiver</td>
-    </tr>
-    <tr>
-      <th>84.0</th>
       <td>Taywan Taylor</td>
       <td>Matt Prater</td>
       <td>Dai</td>
@@ -3029,7 +2879,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>85.0</th>
+      <th>68.0</th>
       <td>Austin Hooper</td>
       <td>Alfred Morris</td>
       <td>Dai</td>
@@ -3039,7 +2889,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>86.0</th>
+      <th>69.0</th>
       <td>Cincinnati</td>
       <td>Green Bay</td>
       <td>Dai</td>
@@ -3049,7 +2899,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>87.0</th>
+      <th>70.0</th>
       <td>Mohamed Sanu</td>
       <td>Ryan Fitzpatrick</td>
       <td>Sean</td>
@@ -3059,7 +2909,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>88.0</th>
+      <th>71.0</th>
       <td>Rod Smith</td>
       <td>Marlon Mack</td>
       <td>Dai</td>
@@ -3069,7 +2919,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>89.0</th>
+      <th>72.0</th>
       <td>Geoff Swaim</td>
       <td>Albert Wilson</td>
       <td>Doug</td>
@@ -3079,7 +2929,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>90.0</th>
+      <th>73.0</th>
       <td>C.J. Uzomah</td>
       <td>Will Dissly</td>
       <td>Chi Shing</td>
@@ -3089,7 +2939,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>91.0</th>
+      <th>74.0</th>
       <td>Marquez Valdes-Scantling</td>
       <td>Austin Hooper</td>
       <td>Dai</td>
@@ -3099,7 +2949,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>92.0</th>
+      <th>75.0</th>
       <td>San Francisco</td>
       <td>Tavon Austin</td>
       <td>Ryan</td>
@@ -3109,7 +2959,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>93.0</th>
+      <th>76.0</th>
       <td>Ryan Succop</td>
       <td>Chandler Catanzaro</td>
       <td>Jiwei</td>
@@ -3119,7 +2969,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>94.0</th>
+      <th>77.0</th>
       <td>Corey Grant</td>
       <td>Free Agent</td>
       <td>Rajiv</td>
@@ -3129,7 +2979,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>95.0</th>
+      <th>78.0</th>
       <td>Houston</td>
       <td>Atlanta</td>
       <td>Rajiv</td>
@@ -3139,7 +2989,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>96.0</th>
+      <th>79.0</th>
       <td>Rashaad Penny</td>
       <td>Rod Smith</td>
       <td>Dai</td>
@@ -3149,7 +2999,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>97.0</th>
+      <th>80.0</th>
       <td>Austin Hooper</td>
       <td>Robbie Gould</td>
       <td>Rajiv</td>
@@ -3159,7 +3009,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>98.0</th>
+      <th>81.0</th>
       <td>Alfred Blue</td>
       <td>Chris Ivory</td>
       <td>Jiwei</td>
@@ -3169,7 +3019,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>99.0</th>
+      <th>82.0</th>
       <td>Brett Maher</td>
       <td>Taywan Taylor</td>
       <td>Dai</td>
@@ -3179,7 +3029,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>100.0</th>
+      <th>83.0</th>
       <td>Jameis Winston</td>
       <td>Nelson Agholor</td>
       <td>Dai</td>
@@ -3189,7 +3039,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>101.0</th>
+      <th>84.0</th>
       <td>Wendell Smallwood</td>
       <td>Ryan Grant</td>
       <td>Sean</td>
@@ -3199,7 +3049,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>102.0</th>
+      <th>85.0</th>
       <td>Marlon Mack</td>
       <td>Giovani Bernard</td>
       <td>Ron</td>
@@ -3209,7 +3059,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>103.0</th>
+      <th>86.0</th>
       <td>D'Onta Foreman</td>
       <td>$2  Waiver</td>
       <td>Sean</td>
@@ -3219,7 +3069,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>104.0</th>
+      <th>87.0</th>
       <td>Minnesota</td>
       <td>Carolina</td>
       <td>Sean</td>
@@ -3229,7 +3079,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>105.0</th>
+      <th>88.0</th>
       <td>David Moore</td>
       <td>Peyton Barber</td>
       <td>Chi Shing</td>
@@ -3239,7 +3089,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>106.0</th>
+      <th>89.0</th>
       <td>Green Bay</td>
       <td>Cincinnati</td>
       <td>Dai</td>
@@ -3249,7 +3099,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>107.0</th>
+      <th>90.0</th>
       <td>Greg Zuerlein</td>
       <td>Mason Crosby</td>
       <td>Matt</td>
@@ -3259,7 +3109,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>108.0</th>
+      <th>91.0</th>
       <td>Ka'imi Fairbairn</td>
       <td>Brett Maher</td>
       <td>Dai</td>
@@ -3269,7 +3119,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>109.0</th>
+      <th>92.0</th>
       <td>Los Angeles</td>
       <td>Tennessee</td>
       <td>Ron</td>
@@ -3279,7 +3129,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>110.0</th>
+      <th>93.0</th>
       <td>Sebastian Janikowski</td>
       <td>Greg Zuerlein</td>
       <td>Matt</td>
@@ -3289,7 +3139,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>111.0</th>
+      <th>94.0</th>
       <td>Ito Smith</td>
       <td>Rhett Ellison</td>
       <td>Doug</td>
@@ -3299,7 +3149,7 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>112.0</th>
+      <th>95.0</th>
       <td>Seattle</td>
       <td>Denver</td>
       <td>Doug</td>
@@ -3309,11 +3159,201 @@ transaction_df.head(200)
       <td>waiver</td>
     </tr>
     <tr>
-      <th>113.0</th>
+      <th>96.0</th>
       <td>Mason Crosby</td>
       <td>Robby Anderson</td>
       <td>Evan</td>
       <td>GB</td>
+      <td>K</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>97.0</th>
+      <td>Kapri Bibbs</td>
+      <td>Marquez Valdes-Scantling</td>
+      <td>Dai</td>
+      <td>Was</td>
+      <td>RB</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>98.0</th>
+      <td>Alfred Morris</td>
+      <td>Kapri Bibbs</td>
+      <td>Dai</td>
+      <td>SF</td>
+      <td>RB</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>99.0</th>
+      <td>Kyle Juszczyk</td>
+      <td>Ted Ginn Jr.</td>
+      <td>Doug</td>
+      <td>SF</td>
+      <td>RB</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>100.0</th>
+      <td>Mitchell Trubisky</td>
+      <td>Derrick Henry</td>
+      <td>Andrew</td>
+      <td>Chi</td>
+      <td>QB</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>101.0</th>
+      <td>Chester Rogers</td>
+      <td>Geoff Swaim</td>
+      <td>Doug</td>
+      <td>Ind</td>
+      <td>WR</td>
+      <td>6</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>102.0</th>
+      <td>Greg Zuerlein</td>
+      <td>Matt Bryant</td>
+      <td>Ron</td>
+      <td>LAR</td>
+      <td>K</td>
+      <td>6</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>103.0</th>
+      <td>Giovani Bernard</td>
+      <td>Mason Crosby</td>
+      <td>Evan</td>
+      <td>Cin</td>
+      <td>RB</td>
+      <td>5</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>104.0</th>
+      <td>Raheem Mostert</td>
+      <td>Arizona</td>
+      <td>Evan</td>
+      <td>SF</td>
+      <td>RB</td>
+      <td>4</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>105.0</th>
+      <td>Willie Snead IV</td>
+      <td>Randall Cobb</td>
+      <td>Jake</td>
+      <td>Bal</td>
+      <td>WR</td>
+      <td>3</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>106.0</th>
+      <td>Ricky Seals-Jones</td>
+      <td>Quincy Enunwa</td>
+      <td>Ron</td>
+      <td>Ari</td>
+      <td>TE</td>
+      <td>2</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>107.0</th>
+      <td>New York</td>
+      <td>Seattle</td>
+      <td>Doug</td>
+      <td>NYJ</td>
+      <td>DEF</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>108.0</th>
+      <td>Indianapolis</td>
+      <td>Minnesota</td>
+      <td>Sean</td>
+      <td>Ind</td>
+      <td>DEF</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>109.0</th>
+      <td>Brett Maher</td>
+      <td>Randy Bullock</td>
+      <td>Sean</td>
+      <td>Dal</td>
+      <td>K</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>110.0</th>
+      <td>Adam Vinatieri</td>
+      <td>Chris Boswell</td>
+      <td>Chi Shing</td>
+      <td>Ind</td>
+      <td>K</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>111.0</th>
+      <td>Nelson Agholor</td>
+      <td>Jordan Matthews</td>
+      <td>Chi Shing</td>
+      <td>Phi</td>
+      <td>WR</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>112.0</th>
+      <td>Tre'Quan Smith</td>
+      <td>Alfred Morris</td>
+      <td>Dai</td>
+      <td>NO</td>
+      <td>WR</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>113.0</th>
+      <td>Buffalo</td>
+      <td>Green Bay</td>
+      <td>Dai</td>
+      <td>Buf</td>
+      <td>DEF</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>114.0</th>
+      <td>Peyton Barber</td>
+      <td>Tre'Quan Smith</td>
+      <td>Dai</td>
+      <td>TB</td>
+      <td>RB</td>
+      <td>0</td>
+      <td>waiver</td>
+    </tr>
+    <tr>
+      <th>115.0</th>
+      <td>Giorgio Tavecchio</td>
+      <td>Sebastian Janikowski</td>
+      <td>Matt</td>
+      <td>Atl</td>
       <td>K</td>
       <td>0</td>
       <td>waiver</td>
@@ -3387,7 +3427,7 @@ roster_df.head(200)
       <td>QB</td>
       <td>6</td>
       <td>Dak Prescott</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td></td>
       <td>Jake</td>
     </tr>
@@ -3407,7 +3447,7 @@ roster_df.head(200)
       <td>TE</td>
       <td>64</td>
       <td>Rob Gronkowski</td>
-      <td>Evan NOT-Almighty</td>
+      <td>Seandon</td>
       <td></td>
       <td>Dai</td>
     </tr>
@@ -3417,7 +3457,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>60</td>
       <td>Leonard Fournette</td>
-      <td>Ey Yo Nagster</td>
+      <td>Daized and Confused</td>
       <td></td>
       <td>Sean</td>
     </tr>
@@ -3447,7 +3487,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>29</td>
       <td>LeSean McCoy</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td>Ryan</td>
     </tr>
@@ -3457,7 +3497,7 @@ roster_df.head(200)
       <td>QB</td>
       <td>11</td>
       <td>Philip Rivers</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td></td>
       <td>Andrew</td>
     </tr>
@@ -3477,7 +3517,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>67</td>
       <td>A.J. Green</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td></td>
       <td>Jake</td>
     </tr>
@@ -3497,7 +3537,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>41</td>
       <td>Larry Fitzgerald</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td></td>
       <td>Andrew</td>
     </tr>
@@ -3517,7 +3557,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>60</td>
       <td>Tyreek Hill</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td>Ryan</td>
     </tr>
@@ -3527,7 +3567,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>71</td>
       <td>Keenan Allen</td>
-      <td>Ey Yo Nagster</td>
+      <td>Daized and Confused</td>
       <td></td>
       <td>Sean</td>
     </tr>
@@ -3567,7 +3607,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>15</td>
       <td>Kelvin Benjamin</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td>Ryan</td>
     </tr>
@@ -3587,7 +3627,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>36</td>
       <td>Royce Freeman</td>
-      <td>Ey Yo Nagster</td>
+      <td>Daized and Confused</td>
       <td></td>
       <td>Sean</td>
     </tr>
@@ -3603,11 +3643,11 @@ roster_df.head(200)
     </tr>
     <tr>
       <th>22</th>
-      <td>GB</td>
-      <td>WR</td>
+      <td>TB</td>
+      <td>RB</td>
       <td>0</td>
-      <td>Marquez Valdes-Scantling</td>
-      <td>Evan NOT-Almighty</td>
+      <td>Peyton Barber</td>
+      <td>Seandon</td>
       <td></td>
       <td>Dai</td>
     </tr>
@@ -3617,7 +3657,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>39</td>
       <td>Brandin Cooks</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td></td>
       <td>Jake</td>
     </tr>
@@ -3627,7 +3667,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>2</td>
       <td>DeSean Jackson</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td></td>
       <td>Jake</td>
     </tr>
@@ -3647,7 +3687,7 @@ roster_df.head(200)
       <td>TE</td>
       <td>52</td>
       <td>Travis Kelce</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td>Ryan</td>
     </tr>
@@ -3657,7 +3697,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>67</td>
       <td>Christian McCaffrey</td>
-      <td>Threemen one Kupp</td>
+      <td>Yeebola</td>
       <td></td>
       <td>Ron</td>
     </tr>
@@ -3667,7 +3707,7 @@ roster_df.head(200)
       <td>TE</td>
       <td>49</td>
       <td>Zach Ertz</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td></td>
       <td>Jake</td>
     </tr>
@@ -3697,7 +3737,7 @@ roster_df.head(200)
       <td>TE</td>
       <td>23</td>
       <td>Jimmy Graham</td>
-      <td>Threemen one Kupp</td>
+      <td>Yeebola</td>
       <td></td>
       <td>Ron</td>
     </tr>
@@ -3707,7 +3747,7 @@ roster_df.head(200)
       <td>QB</td>
       <td>51</td>
       <td>Aaron Rodgers</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td>Ryan</td>
     </tr>
@@ -3727,7 +3767,7 @@ roster_df.head(200)
       <td>DEF</td>
       <td>8</td>
       <td>Jacksonville</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td>Ryan</td>
     </tr>
@@ -3777,7 +3817,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>21</td>
       <td>Wendell Smallwood</td>
-      <td>Ey Yo Nagster</td>
+      <td>Daized and Confused</td>
       <td></td>
       <td>Sean</td>
     </tr>
@@ -3797,7 +3837,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>56</td>
       <td>Alex Collins</td>
-      <td>Threemen one Kupp</td>
+      <td>Yeebola</td>
       <td></td>
       <td>Ron</td>
     </tr>
@@ -3807,7 +3847,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>0</td>
       <td>Ronald Jones II</td>
-      <td>Evan NOT-Almighty</td>
+      <td>Seandon</td>
       <td></td>
       <td>Dai</td>
     </tr>
@@ -3817,7 +3857,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>19</td>
       <td>Julian Edelman</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td></td>
       <td>Andrew</td>
     </tr>
@@ -3843,11 +3883,11 @@ roster_df.head(200)
     </tr>
     <tr>
       <th>46</th>
-      <td>GB</td>
+      <td>Buf</td>
       <td>DEF</td>
-      <td>1</td>
-      <td>Green Bay</td>
-      <td>Evan NOT-Almighty</td>
+      <td>0</td>
+      <td>Buffalo</td>
+      <td>Seandon</td>
       <td></td>
       <td>Dai</td>
     </tr>
@@ -3877,7 +3917,7 @@ roster_df.head(200)
       <td>QB</td>
       <td>25</td>
       <td>Drew Brees</td>
-      <td>Evan NOT-Almighty</td>
+      <td>Seandon</td>
       <td></td>
       <td>Dai</td>
     </tr>
@@ -3887,7 +3927,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>29</td>
       <td>Dion Lewis</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td>Ryan</td>
     </tr>
@@ -3917,16 +3957,16 @@ roster_df.head(200)
       <td>RB</td>
       <td>16</td>
       <td>Marshawn Lynch</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td>Ryan</td>
     </tr>
     <tr>
       <th>54</th>
-      <td>Jax</td>
-      <td>WR</td>
+      <td>Hou</td>
+      <td>K</td>
       <td>0</td>
-      <td>Dede Westbrook</td>
+      <td>Ka'imi Fairbairn</td>
       <td>G</td>
       <td></td>
       <td>Jiwei</td>
@@ -3963,20 +4003,20 @@ roster_df.head(200)
     </tr>
     <tr>
       <th>58</th>
-      <td>Sea</td>
+      <td>NYJ</td>
       <td>DEF</td>
       <td>0</td>
-      <td>Seattle</td>
-      <td>Yeezekiel Elliott</td>
+      <td>New York</td>
+      <td>Douglast</td>
       <td></td>
       <td>Jake</td>
     </tr>
     <tr>
       <th>59</th>
-      <td>Dal</td>
-      <td>TE</td>
-      <td>0</td>
-      <td>Geoff Swaim</td>
+      <td>Ind</td>
+      <td>WR</td>
+      <td>6</td>
+      <td>Chester Rogers</td>
       <td>Bye Week</td>
       <td></td>
       <td>Doug</td>
@@ -4003,20 +4043,20 @@ roster_df.head(200)
     </tr>
     <tr>
       <th>62</th>
-      <td>Jax</td>
-      <td>RB</td>
-      <td>11</td>
-      <td>T.J. Yeldon</td>
-      <td>Ey Yo Nagster</td>
+      <td>Ten</td>
+      <td>TE</td>
+      <td>23</td>
+      <td>Delanie Walker</td>
+      <td>Daized and Confused</td>
       <td></td>
       <td>Sean</td>
     </tr>
     <tr>
       <th>63</th>
-      <td>Den</td>
+      <td>SF</td>
       <td>RB</td>
-      <td>15</td>
-      <td>Phillip Lindsay</td>
+      <td>8</td>
+      <td>Matt Breida</td>
       <td>2 Gurley's 1 Cup</td>
       <td></td>
       <td>Matt</td>
@@ -4043,10 +4083,10 @@ roster_df.head(200)
     </tr>
     <tr>
       <th>66</th>
-      <td>NO</td>
-      <td>WR</td>
+      <td>SF</td>
+      <td>RB</td>
       <td>0</td>
-      <td>Ted Ginn Jr.</td>
+      <td>Kyle Juszczyk</td>
       <td>Bye Week</td>
       <td></td>
       <td>Doug</td>
@@ -4057,7 +4097,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>0</td>
       <td>Nyheim Hines</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td></td>
       <td>Andrew</td>
     </tr>
@@ -4073,20 +4113,20 @@ roster_df.head(200)
     </tr>
     <tr>
       <th>69</th>
-      <td>GB</td>
-      <td>K</td>
-      <td>0</td>
-      <td>Mason Crosby</td>
+      <td>Cin</td>
+      <td>RB</td>
+      <td>5</td>
+      <td>Giovani Bernard</td>
       <td>Cry me a Philip</td>
       <td></td>
       <td>Evan</td>
     </tr>
     <tr>
       <th>70</th>
-      <td>Sea</td>
+      <td>NYJ</td>
       <td>DEF</td>
       <td>0</td>
-      <td>Seattle</td>
+      <td>New York</td>
       <td>Bye Week</td>
       <td></td>
       <td>Doug</td>
@@ -4137,7 +4177,7 @@ roster_df.head(200)
       <td>TE</td>
       <td>6</td>
       <td>George Kittle</td>
-      <td>Ey Yo Nagster</td>
+      <td>Daized and Confused</td>
       <td></td>
       <td>Sean</td>
     </tr>
@@ -4147,7 +4187,7 @@ roster_df.head(200)
       <td>QB</td>
       <td>0</td>
       <td>Ben Roethlisberger</td>
-      <td>Threemen one Kupp</td>
+      <td>Yeebola</td>
       <td></td>
       <td>Ron</td>
     </tr>
@@ -4163,21 +4203,21 @@ roster_df.head(200)
     </tr>
     <tr>
       <th>78</th>
-      <td>GB</td>
+      <td>Jax</td>
       <td>WR</td>
-      <td>0</td>
-      <td>Geronimo Allison</td>
-      <td>Threemen one Kupp</td>
+      <td>5</td>
+      <td>Dede Westbrook</td>
+      <td>Yeebola</td>
       <td></td>
-      <td>Andrew</td>
+      <td>Ron</td>
     </tr>
     <tr>
       <th>79</th>
-      <td>GB</td>
-      <td>WR</td>
+      <td>TB</td>
+      <td>RB</td>
       <td>0</td>
-      <td>Marquez Valdes-Scantling</td>
-      <td>Ron Ng away with it</td>
+      <td>Peyton Barber</td>
+      <td>No bunny no fu fu</td>
       <td></td>
       <td>Andrew</td>
     </tr>
@@ -4187,7 +4227,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>5</td>
       <td>Taylor Gabriel</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td></td>
       <td>Jake</td>
     </tr>
@@ -4197,16 +4237,16 @@ roster_df.head(200)
       <td>QB</td>
       <td>0</td>
       <td>Jameis Winston</td>
-      <td>Evan NOT-Almighty</td>
+      <td>Seandon</td>
       <td></td>
       <td>Dai</td>
     </tr>
     <tr>
       <th>82</th>
-      <td>Det</td>
-      <td>RB</td>
+      <td>LAC</td>
+      <td>DEF</td>
       <td>0</td>
-      <td>Theo Riddick</td>
+      <td>Los Angeles</td>
       <td>Chi ShingT's Team</td>
       <td></td>
       <td>Chi Shing</td>
@@ -4217,7 +4257,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>5</td>
       <td>DeVante Parker</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td>Ryan</td>
     </tr>
@@ -4227,7 +4267,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>7</td>
       <td>Bilal Powell</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td></td>
       <td>Jake</td>
     </tr>
@@ -4244,20 +4284,20 @@ roster_df.head(200)
     <tr>
       <th>86</th>
       <td>Cle</td>
-      <td>QB</td>
-      <td>6</td>
-      <td>Baker Mayfield</td>
-      <td>Ey Yo Nagster</td>
+      <td>RB</td>
+      <td>5</td>
+      <td>Duke Johnson Jr.</td>
+      <td>Daized and Confused</td>
       <td></td>
       <td>Sean</td>
     </tr>
     <tr>
       <th>87</th>
-      <td>Ari</td>
+      <td>Dal</td>
       <td>WR</td>
-      <td>0</td>
-      <td>Christian Kirk</td>
-      <td>Evan NOT-Almighty</td>
+      <td>8</td>
+      <td>Dez Bryant</td>
+      <td>Seandon</td>
       <td></td>
       <td>Dai</td>
     </tr>
@@ -4267,7 +4307,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>10</td>
       <td>Kerryon Johnson</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td></td>
       <td>Andrew</td>
     </tr>
@@ -4287,7 +4327,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>0</td>
       <td>D.J. Moore</td>
-      <td>Evan NOT-Almighty</td>
+      <td>Seandon</td>
       <td></td>
       <td>Dai</td>
     </tr>
@@ -4297,7 +4337,7 @@ roster_df.head(200)
       <td>DEF</td>
       <td>3</td>
       <td>Chicago</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td></td>
       <td>Andrew</td>
     </tr>
@@ -4317,7 +4357,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>4</td>
       <td>Sterling Shepard</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td>Ryan</td>
     </tr>
@@ -4327,7 +4367,7 @@ roster_df.head(200)
       <td>K</td>
       <td>4</td>
       <td>Justin Tucker</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td></td>
       <td>Jake</td>
     </tr>
@@ -4337,7 +4377,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>7</td>
       <td>Sony Michel</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td></td>
       <td>Ron</td>
     </tr>
@@ -4363,11 +4403,11 @@ roster_df.head(200)
     </tr>
     <tr>
       <th>98</th>
-      <td>Min</td>
+      <td>Ind</td>
       <td>DEF</td>
-      <td>2</td>
-      <td>Minnesota</td>
-      <td>Ey Yo Nagster</td>
+      <td>0</td>
+      <td>Indianapolis</td>
+      <td>Daized and Confused</td>
       <td></td>
       <td>Sean</td>
     </tr>
@@ -4387,17 +4427,17 @@ roster_df.head(200)
       <td>RB</td>
       <td>5</td>
       <td>James Conner</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td></td>
       <td>Andrew</td>
     </tr>
     <tr>
       <th>101</th>
-      <td>NYJ</td>
-      <td>WR</td>
+      <td>Ind</td>
+      <td>DEF</td>
       <td>0</td>
-      <td>Quincy Enunwa</td>
-      <td>Threemen one Kupp</td>
+      <td>Indianapolis</td>
+      <td>Yeebola</td>
       <td></td>
       <td>Ron</td>
     </tr>
@@ -4417,7 +4457,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>0</td>
       <td>Antonio Callaway</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td></td>
       <td>Andrew</td>
     </tr>
@@ -4443,11 +4483,11 @@ roster_df.head(200)
     </tr>
     <tr>
       <th>106</th>
-      <td>Atl</td>
+      <td>LAR</td>
       <td>K</td>
-      <td>2</td>
-      <td>Matt Bryant</td>
-      <td>Threemen one Kupp</td>
+      <td>6</td>
+      <td>Greg Zuerlein</td>
+      <td>Yeebola</td>
       <td></td>
       <td>Ron</td>
     </tr>
@@ -4457,17 +4497,17 @@ roster_df.head(200)
       <td>DEF</td>
       <td>0</td>
       <td>San Francisco</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td>Ryan</td>
     </tr>
     <tr>
       <th>108</th>
-      <td>Ari</td>
+      <td>Car</td>
       <td>TE</td>
-      <td>1</td>
-      <td>Ricky Seals-Jones</td>
-      <td>Yeezekiel Elliott</td>
+      <td>0</td>
+      <td>Greg Olsen</td>
+      <td>Douglast</td>
       <td></td>
       <td>Jake</td>
     </tr>
@@ -4487,17 +4527,17 @@ roster_df.head(200)
       <td>WR</td>
       <td>3</td>
       <td>Chris Godwin</td>
-      <td>Ey Yo Nagster</td>
+      <td>Daized and Confused</td>
       <td></td>
       <td>Sean</td>
     </tr>
     <tr>
       <th>111</th>
-      <td>SF</td>
+      <td>Det</td>
       <td>RB</td>
-      <td>11</td>
-      <td>Matt Breida</td>
-      <td>Threemen one Kupp</td>
+      <td>2</td>
+      <td>LeGarrette Blount</td>
+      <td>Yeebola</td>
       <td></td>
       <td>Ron</td>
     </tr>
@@ -4507,7 +4547,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>6</td>
       <td>Marlon Mack</td>
-      <td>Threemen one Kupp</td>
+      <td>Yeebola</td>
       <td></td>
       <td>Ron</td>
     </tr>
@@ -4523,11 +4563,11 @@ roster_df.head(200)
     </tr>
     <tr>
       <th>114</th>
-      <td>LAC</td>
-      <td>RB</td>
+      <td>Buf</td>
+      <td>TE</td>
       <td>1</td>
-      <td>Austin Ekeler</td>
-      <td>Evan NOT-Almighty</td>
+      <td>Charles Clay</td>
+      <td>Seandon</td>
       <td></td>
       <td>Dai</td>
     </tr>
@@ -4537,16 +4577,16 @@ roster_df.head(200)
       <td>WR</td>
       <td>5</td>
       <td>Kenny Golladay</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td></td>
       <td>Andrew</td>
     </tr>
     <tr>
       <th>116</th>
-      <td>Sea</td>
-      <td>K</td>
-      <td>0</td>
-      <td>Sebastian Janikowski</td>
+      <td>Cle</td>
+      <td>QB</td>
+      <td>1</td>
+      <td>Baker Mayfield</td>
       <td>2 Gurley's 1 Cup</td>
       <td></td>
       <td>Matt</td>
@@ -4567,7 +4607,7 @@ roster_df.head(200)
       <td>K</td>
       <td>2</td>
       <td>Jake Elliott</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td></td>
       <td>Andrew</td>
     </tr>
@@ -4577,17 +4617,17 @@ roster_df.head(200)
       <td>RB</td>
       <td>3</td>
       <td>Nick Chubb</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td>Ryan</td>
     </tr>
     <tr>
       <th>120</th>
-      <td>NE</td>
-      <td>RB</td>
-      <td>2</td>
-      <td>James White</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Pit</td>
+      <td>DEF</td>
+      <td>1</td>
+      <td>Pittsburgh</td>
+      <td>Douglast</td>
       <td></td>
       <td>Jake</td>
     </tr>
@@ -4617,7 +4657,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>0</td>
       <td>Javorius Allen</td>
-      <td>Evan NOT-Almighty</td>
+      <td>Seandon</td>
       <td></td>
       <td>Dai</td>
     </tr>
@@ -4637,7 +4677,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>5</td>
       <td>Rashaad Penny</td>
-      <td>Evan NOT-Almighty</td>
+      <td>Seandon</td>
       <td></td>
       <td>Dai</td>
     </tr>
@@ -4653,10 +4693,10 @@ roster_df.head(200)
     </tr>
     <tr>
       <th>127</th>
-      <td>Pit</td>
+      <td>Ind</td>
       <td>K</td>
-      <td>1</td>
-      <td>Chris Boswell</td>
+      <td>0</td>
+      <td>Adam Vinatieri</td>
       <td>Chi ShingT's Team</td>
       <td></td>
       <td>Chi Shing</td>
@@ -4667,37 +4707,37 @@ roster_df.head(200)
       <td>WR</td>
       <td>1</td>
       <td>Calvin Ridley</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td>Ryan</td>
     </tr>
     <tr>
       <th>129</th>
-      <td>GB</td>
+      <td>Bal</td>
       <td>WR</td>
-      <td>1</td>
-      <td>Randall Cobb</td>
-      <td>Yeezekiel Elliott</td>
+      <td>3</td>
+      <td>Willie Snead IV</td>
+      <td>Douglast</td>
       <td></td>
       <td>Jake</td>
     </tr>
     <tr>
       <th>130</th>
-      <td>Cin</td>
-      <td>K</td>
-      <td>0</td>
-      <td>Randy Bullock</td>
-      <td>Ey Yo Nagster</td>
+      <td>Jax</td>
+      <td>WR</td>
+      <td>1</td>
+      <td>Donte Moncrief</td>
+      <td>Daized and Confused</td>
       <td></td>
       <td>Sean</td>
     </tr>
     <tr>
       <th>131</th>
-      <td>Cin</td>
-      <td>QB</td>
-      <td>1</td>
-      <td>Andy Dalton</td>
-      <td>Threemen one Kupp</td>
+      <td>Atl</td>
+      <td>RB</td>
+      <td>0</td>
+      <td>Ito Smith</td>
+      <td>Yeebola</td>
       <td></td>
       <td>Ron</td>
     </tr>
@@ -4717,7 +4757,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>5</td>
       <td>Rashaad Penny</td>
-      <td>Evan NOT-Almighty</td>
+      <td>Seandon</td>
       <td></td>
       <td>Dai</td>
     </tr>
@@ -4733,10 +4773,10 @@ roster_df.head(200)
     </tr>
     <tr>
       <th>135</th>
-      <td>Mia</td>
-      <td>RB</td>
-      <td>0</td>
-      <td>Frank Gore</td>
+      <td>TB</td>
+      <td>TE</td>
+      <td>1</td>
+      <td>Cameron Brate</td>
       <td>Chi ShingT's Team</td>
       <td></td>
       <td>Chi Shing</td>
@@ -4747,17 +4787,17 @@ roster_df.head(200)
       <td>K</td>
       <td>3</td>
       <td>Dan Bailey</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td>Ryan</td>
     </tr>
     <tr>
       <th>137</th>
-      <td>Atl</td>
-      <td>WR</td>
-      <td>0</td>
-      <td>Mohamed Sanu</td>
-      <td>Ey Yo Nagster</td>
+      <td>TB</td>
+      <td>QB</td>
+      <td>1</td>
+      <td>Jameis Winston</td>
+      <td>Daized and Confused</td>
       <td></td>
       <td>Sean</td>
     </tr>
@@ -4767,7 +4807,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>0</td>
       <td>Tyler Boyd</td>
-      <td>Threemen one Kupp</td>
+      <td>Yeebola</td>
       <td></td>
       <td>Ron</td>
     </tr>
@@ -4807,7 +4847,7 @@ roster_df.head(200)
       <td>TE</td>
       <td>4</td>
       <td>Dallas Goedert</td>
-      <td>Ey Yo Nagster</td>
+      <td>Daized and Confused</td>
       <td></td>
       <td>Sean</td>
     </tr>
@@ -4817,7 +4857,7 @@ roster_df.head(200)
       <td>DEF</td>
       <td>0</td>
       <td>Los Angeles</td>
-      <td>Threemen one Kupp</td>
+      <td>Yeebola</td>
       <td></td>
       <td>Ron</td>
     </tr>
@@ -4843,10 +4883,10 @@ roster_df.head(200)
     </tr>
     <tr>
       <th>146</th>
-      <td>Ari</td>
-      <td>DEF</td>
-      <td>1</td>
-      <td>Arizona</td>
+      <td>SF</td>
+      <td>RB</td>
+      <td>4</td>
+      <td>Raheem Mostert</td>
       <td>Cry me a Philip</td>
       <td></td>
       <td>Evan</td>
@@ -4907,7 +4947,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>5</td>
       <td>Allen Robinson II</td>
-      <td>Ey Yo Nagster</td>
+      <td>Daized and Confused</td>
       <td>B</td>
       <td>Sean</td>
     </tr>
@@ -4917,7 +4957,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>9</td>
       <td>Alvin Kamara</td>
-      <td>Ey Yo Nagster</td>
+      <td>Daized and Confused</td>
       <td>B</td>
       <td>Sean</td>
     </tr>
@@ -4927,7 +4967,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>30</td>
       <td>Mike Evans</td>
-      <td>Ey Yo Nagster</td>
+      <td>Daized and Confused</td>
       <td>AB</td>
       <td>Sean</td>
     </tr>
@@ -4937,7 +4977,7 @@ roster_df.head(200)
       <td>QB</td>
       <td>5</td>
       <td>Andrew Luck</td>
-      <td>Ey Yo Nagster</td>
+      <td>Daized and Confused</td>
       <td>B</td>
       <td>Sean</td>
     </tr>
@@ -5017,7 +5057,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>24</td>
       <td>Stefon Diggs</td>
-      <td>Threemen one Kupp</td>
+      <td>Yeebola</td>
       <td>AB</td>
       <td>Ron</td>
     </tr>
@@ -5027,7 +5067,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>29</td>
       <td>Odell Beckham Jr.</td>
-      <td>Threemen one Kupp</td>
+      <td>Yeebola</td>
       <td>AB</td>
       <td>Ron</td>
     </tr>
@@ -5037,7 +5077,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>6</td>
       <td>Josh Gordon</td>
-      <td>Threemen one Kupp</td>
+      <td>Yeebola</td>
       <td>B</td>
       <td>Ron</td>
     </tr>
@@ -5047,7 +5087,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>66</td>
       <td>Le'Veon Bell</td>
-      <td>Threemen one Kupp</td>
+      <td>Yeebola</td>
       <td>AB</td>
       <td>Ron</td>
     </tr>
@@ -5057,7 +5097,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>17</td>
       <td>Kenyan Drake</td>
-      <td>Evan NOT-Almighty</td>
+      <td>Seandon</td>
       <td>B</td>
       <td>Dai</td>
     </tr>
@@ -5067,7 +5107,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>27</td>
       <td>Davante Adams</td>
-      <td>Evan NOT-Almighty</td>
+      <td>Seandon</td>
       <td>AB</td>
       <td>Dai</td>
     </tr>
@@ -5077,7 +5117,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>39</td>
       <td>Melvin Gordon III</td>
-      <td>Evan NOT-Almighty</td>
+      <td>Seandon</td>
       <td>AB</td>
       <td>Dai</td>
     </tr>
@@ -5087,7 +5127,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>56</td>
       <td>DeAndre Hopkins</td>
-      <td>Evan NOT-Almighty</td>
+      <td>Seandon</td>
       <td>B</td>
       <td>Dai</td>
     </tr>
@@ -5137,7 +5177,7 @@ roster_df.head(200)
       <td>QB</td>
       <td>6</td>
       <td>Deshaun Watson</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td>AB</td>
       <td>Ryan</td>
     </tr>
@@ -5147,7 +5187,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>18</td>
       <td>David Johnson</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td>AB</td>
       <td>Ryan</td>
     </tr>
@@ -5157,7 +5197,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>18</td>
       <td>Michael Thomas</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td>AB</td>
       <td>Jake</td>
     </tr>
@@ -5167,7 +5207,7 @@ roster_df.head(200)
       <td>QB</td>
       <td>22</td>
       <td>Kirk Cousins</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td>AB</td>
       <td>Jake</td>
     </tr>
@@ -5177,7 +5217,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>5</td>
       <td>Marquise Goodwin</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td>B</td>
       <td>Matt</td>
     </tr>
@@ -5187,7 +5227,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>55</td>
       <td>Ezekiel Elliott</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td>B</td>
       <td>Jake</td>
     </tr>
@@ -5213,12 +5253,12 @@ roster_df.head(200)
     </tr>
     <tr>
       <th>183</th>
-      <td>Phi</td>
-      <td>WR</td>
-      <td>2</td>
-      <td>Jordan Matthews</td>
+      <td>SF</td>
+      <td>QB</td>
+      <td>5</td>
+      <td>Jimmy Garoppolo</td>
       <td>Chi ShingT's Team</td>
-      <td></td>
+      <td>B</td>
       <td>Chi Shing</td>
     </tr>
     <tr>
@@ -5237,7 +5277,7 @@ roster_df.head(200)
       <td>RB</td>
       <td>8</td>
       <td>Tarik Cohen</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td>B</td>
       <td>Andrew</td>
     </tr>
@@ -5247,18 +5287,18 @@ roster_df.head(200)
       <td>TE</td>
       <td>8</td>
       <td>Evan Engram</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td>B</td>
       <td>Andrew</td>
     </tr>
     <tr>
       <th>187</th>
-      <td>Ten</td>
-      <td>RB</td>
-      <td>19</td>
-      <td>Derrick Henry</td>
-      <td>Ron Ng away with it</td>
-      <td>B</td>
+      <td>Chi</td>
+      <td>QB</td>
+      <td>0</td>
+      <td>Mitchell Trubisky</td>
+      <td>No bunny no fu fu</td>
+      <td></td>
       <td>Andrew</td>
     </tr>
     <tr>
@@ -5267,7 +5307,7 @@ roster_df.head(200)
       <td>WR</td>
       <td>5</td>
       <td>JuJu Smith-Schuster</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td>B</td>
       <td>Andrew</td>
     </tr>
@@ -5357,7 +5397,7 @@ roster_df.head(15)
       <td>QB</td>
       <td>6</td>
       <td>Dak Prescott</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td></td>
       <td>Jake</td>
     </tr>
@@ -5377,7 +5417,7 @@ roster_df.head(15)
       <td>TE</td>
       <td>64</td>
       <td>Rob Gronkowski</td>
-      <td>Evan NOT-Almighty</td>
+      <td>Seandon</td>
       <td></td>
       <td>Dai</td>
     </tr>
@@ -5387,7 +5427,7 @@ roster_df.head(15)
       <td>RB</td>
       <td>60</td>
       <td>Leonard Fournette</td>
-      <td>Ey Yo Nagster</td>
+      <td>Daized and Confused</td>
       <td></td>
       <td>Sean</td>
     </tr>
@@ -5417,7 +5457,7 @@ roster_df.head(15)
       <td>RB</td>
       <td>29</td>
       <td>LeSean McCoy</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td>Ryan</td>
     </tr>
@@ -5427,7 +5467,7 @@ roster_df.head(15)
       <td>QB</td>
       <td>11</td>
       <td>Philip Rivers</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td></td>
       <td>Andrew</td>
     </tr>
@@ -5447,7 +5487,7 @@ roster_df.head(15)
       <td>WR</td>
       <td>67</td>
       <td>A.J. Green</td>
-      <td>Yeezekiel Elliott</td>
+      <td>Douglast</td>
       <td></td>
       <td>Jake</td>
     </tr>
@@ -5467,7 +5507,7 @@ roster_df.head(15)
       <td>WR</td>
       <td>41</td>
       <td>Larry Fitzgerald</td>
-      <td>Ron Ng away with it</td>
+      <td>No bunny no fu fu</td>
       <td></td>
       <td>Andrew</td>
     </tr>
@@ -5487,7 +5527,7 @@ roster_df.head(15)
       <td>WR</td>
       <td>60</td>
       <td>Tyreek Hill</td>
-      <td>Nags</td>
+      <td>Free-Mangina</td>
       <td></td>
       <td>Ryan</td>
     </tr>
@@ -5497,7 +5537,7 @@ roster_df.head(15)
       <td>WR</td>
       <td>71</td>
       <td>Keenan Allen</td>
-      <td>Ey Yo Nagster</td>
+      <td>Daized and Confused</td>
       <td></td>
       <td>Sean</td>
     </tr>
@@ -5515,7 +5555,7 @@ ff_team_names = list(manager_df.team_name)
 print(ff_team_names)
 ```
 
-    ["2 Gurley's 1 Cup", 'Bye Week', "Chi ShingT's Team", 'Cry me a Philip', 'Evan NOT-Almighty', 'Ey Yo Nagster', 'FirstRoundFlops', 'G', 'Nags', 'Ron Ng away with it', 'Threemen one Kupp', 'Yeezekiel Elliott']
+    ["2 Gurley's 1 Cup", 'Bye Week', "Chi ShingT's Team", 'Cry me a Philip', 'Daized and Confused', 'Douglast', 'FirstRoundFlops', 'Free-Mangina', 'G', 'No bunny no fu fu', 'Seandon', 'Yeebola']
     
 
 
@@ -5529,23 +5569,23 @@ for ff in ff_team_names:
     print("------------------------------------------------------------------------------------")
 ```
 
-                         name NFLTeam  Pos  cost keeper              team manager
-    157           Dalvin Cook     Min   RB    64      B  2 Gurley's 1 Cup    Matt
-    15         Alshon Jeffery     Phi   WR    40         2 Gurley's 1 Cup    Matt
-    158        Todd Gurley II     LAR   RB    40     AB  2 Gurley's 1 Cup    Matt
-    33          Jarvis Landry     Cle   WR    38         2 Gurley's 1 Cup    Matt
-    156          Adam Thielen     Min   WR    28      B  2 Gurley's 1 Cup    Matt
-    57       Emmanuel Sanders     Den   WR    18         2 Gurley's 1 Cup    Matt
-    63        Phillip Lindsay     Den   RB    15         2 Gurley's 1 Cup    Matt
-    68            Jordan Reed     Was   TE    10         2 Gurley's 1 Cup    Matt
-    77           Philadelphia     Phi  DEF     5         2 Gurley's 1 Cup    Matt
-    179      Marquise Goodwin      SF   WR     5      B  2 Gurley's 1 Cup    Matt
-    92             Josh Rosen     Ari   QB     5         2 Gurley's 1 Cup    Matt
-    104           Keke Coutee     Hou   WR     4         2 Gurley's 1 Cup    Matt
-    71             Jared Cook     Oak   TE     3         2 Gurley's 1 Cup    Matt
-    64             Jared Goff     LAR   QB     2         2 Gurley's 1 Cup    Matt
-    121           Aaron Jones      GB   RB     2         2 Gurley's 1 Cup    Matt
-    116  Sebastian Janikowski     Sea    K     0         2 Gurley's 1 Cup    Matt
+                     name NFLTeam  Pos  cost keeper              team manager
+    157       Dalvin Cook     Min   RB    64      B  2 Gurley's 1 Cup    Matt
+    15     Alshon Jeffery     Phi   WR    40         2 Gurley's 1 Cup    Matt
+    158    Todd Gurley II     LAR   RB    40     AB  2 Gurley's 1 Cup    Matt
+    33      Jarvis Landry     Cle   WR    38         2 Gurley's 1 Cup    Matt
+    156      Adam Thielen     Min   WR    28      B  2 Gurley's 1 Cup    Matt
+    57   Emmanuel Sanders     Den   WR    18         2 Gurley's 1 Cup    Matt
+    68        Jordan Reed     Was   TE    10         2 Gurley's 1 Cup    Matt
+    63        Matt Breida      SF   RB     8         2 Gurley's 1 Cup    Matt
+    77       Philadelphia     Phi  DEF     5         2 Gurley's 1 Cup    Matt
+    179  Marquise Goodwin      SF   WR     5      B  2 Gurley's 1 Cup    Matt
+    92         Josh Rosen     Ari   QB     5         2 Gurley's 1 Cup    Matt
+    104       Keke Coutee     Hou   WR     4         2 Gurley's 1 Cup    Matt
+    71         Jared Cook     Oak   TE     3         2 Gurley's 1 Cup    Matt
+    121       Aaron Jones      GB   RB     2         2 Gurley's 1 Cup    Matt
+    64         Jared Goff     LAR   QB     2         2 Gurley's 1 Cup    Matt
+    116    Baker Mayfield     Cle   QB     1         2 Gurley's 1 Cup    Matt
     ------------------------------------------------------------------------------------
                        name NFLTeam  Pos  cost keeper      team manager
     5        Saquon Barkley     NYG   RB    74         Bye Week    Doug
@@ -5555,15 +5595,15 @@ for ff in ff_team_names:
     174         Golden Tate     Det   WR    29     AB  Bye Week    Doug
     172     Devonta Freeman     Atl   RB    22     AB  Bye Week    Doug
     74       Devin Funchess     Car   WR    15         Bye Week    Doug
+    59       Chester Rogers     Ind   WR     6         Bye Week    Doug
     171         Keelan Cole     Jax   WR     5      B  Bye Week    Doug
     173       Corey Clement     Phi   RB     5      B  Bye Week    Doug
     60   Stephen Gostkowski      NE    K     5         Bye Week    Doug
     99      Jerick McKinnon      SF   RB     3         Bye Week    Doug
     122       Cameron Brate      TB   TE     3         Bye Week    Doug
-    59          Geoff Swaim     Dal   TE     0         Bye Week    Doug
-    66         Ted Ginn Jr.      NO   WR     0         Bye Week    Doug
+    66        Kyle Juszczyk      SF   RB     0         Bye Week    Doug
     73            Ito Smith     Atl   RB     0         Bye Week    Doug
-    70              Seattle     Sea  DEF     0         Bye Week    Doug
+    70             New York     NYJ  DEF     0         Bye Week    Doug
     ------------------------------------------------------------------------------------
                     name NFLTeam  Pos  cost keeper               team    manager
     1      Antonio Brown     Pit   WR    81         Chi ShingT's Team  Chi Shing
@@ -5573,15 +5613,15 @@ for ff in ff_team_names:
     30     Tevin Coleman     Atl   RB    22         Chi ShingT's Team  Chi Shing
     47      Jordy Nelson     Oak   WR    19         Chi ShingT's Team  Chi Shing
     181   Chris Thompson     Was   RB     5      B  Chi ShingT's Team  Chi Shing
+    183  Jimmy Garoppolo      SF   QB     5      B  Chi ShingT's Team  Chi Shing
     184    Will Fuller V     Hou   WR     5      B  Chi ShingT's Team  Chi Shing
     102  Patrick Mahomes      KC   QB     3         Chi ShingT's Team  Chi Shing
     182      David Moore     Sea   WR     2         Chi ShingT's Team  Chi Shing
-    183  Jordan Matthews     Phi   WR     2         Chi ShingT's Team  Chi Shing
-    127    Chris Boswell     Pit    K     1         Chi ShingT's Team  Chi Shing
+    135    Cameron Brate      TB   TE     1         Chi ShingT's Team  Chi Shing
     19   Phillip Dorsett      NE   WR     0         Chi ShingT's Team  Chi Shing
-    135       Frank Gore     Mia   RB     0         Chi ShingT's Team  Chi Shing
+    82       Los Angeles     LAC  DEF     0         Chi ShingT's Team  Chi Shing
+    127   Adam Vinatieri     Ind    K     0         Chi ShingT's Team  Chi Shing
     141        Cleveland     Cle  DEF     0         Chi ShingT's Team  Chi Shing
-    82      Theo Riddick     Det   RB     0         Chi ShingT's Team  Chi Shing
     ------------------------------------------------------------------------------------
                      name NFLTeam  Pos  cost keeper             team manager
     10        Julio Jones     Atl   WR    85         Cry me a Philip    Evan
@@ -5590,70 +5630,52 @@ for ff in ff_team_names:
     160     Sammy Watkins      KC   WR    32      B  Cry me a Philip    Evan
     8        Lamar Miller     Hou   RB    28         Cry me a Philip    Evan
     161      Kyle Rudolph     Min   TE    17     AB  Cry me a Philip    Evan
-    56   Matthew Stafford     Det   QB    14         Cry me a Philip    Evan
     72     Isaiah Crowell     NYJ   RB    14         Cry me a Philip    Evan
+    56   Matthew Stafford     Det   QB    14         Cry me a Philip    Evan
+    69    Giovani Bernard     Cin   RB     5         Cry me a Philip    Evan
     159     Tyler Lockett     Sea   WR     5      B  Cry me a Philip    Evan
+    146    Raheem Mostert      SF   RB     4         Cry me a Philip    Evan
     113          Wil Lutz      NO    K     1         Cry me a Philip    Evan
-    146           Arizona     Ari  DEF     1         Cry me a Philip    Evan
-    132     C.J. Anderson     Car   RB     1         Cry me a Philip    Evan
-    144        John Brown     Bal   WR     1         Cry me a Philip    Evan
     124       New England      NE  DEF     1         Cry me a Philip    Evan
     139        Eric Ebron     Ind   TE     1         Cry me a Philip    Evan
-    69       Mason Crosby      GB    K     0         Cry me a Philip    Evan
+    132     C.J. Anderson     Car   RB     1         Cry me a Philip    Evan
+    144        John Brown     Bal   WR     1         Cry me a Philip    Evan
     ------------------------------------------------------------------------------------
-                             name NFLTeam  Pos  cost keeper               team  \
-    2              Rob Gronkowski      NE   TE    64         Evan NOT-Almighty   
-    170           DeAndre Hopkins     Hou   WR    56      B  Evan NOT-Almighty   
-    169         Melvin Gordon III     LAC   RB    39     AB  Evan NOT-Almighty   
-    168             Davante Adams      GB   WR    27     AB  Evan NOT-Almighty   
-    49                 Drew Brees      NO   QB    25         Evan NOT-Almighty   
-    167              Kenyan Drake     Mia   RB    17      B  Evan NOT-Almighty   
-    125             Rashaad Penny     Sea   RB     5         Evan NOT-Almighty   
-    133             Rashaad Penny     Sea   RB     5         Evan NOT-Almighty   
-    46                  Green Bay      GB  DEF     1         Evan NOT-Almighty   
-    114             Austin Ekeler     LAC   RB     1         Evan NOT-Almighty   
-    22   Marquez Valdes-Scantling      GB   WR     0         Evan NOT-Almighty   
-    42            Ronald Jones II      TB   RB     0         Evan NOT-Almighty   
-    123            Javorius Allen     Bal   RB     0         Evan NOT-Almighty   
-    87             Christian Kirk     Ari   WR     0         Evan NOT-Almighty   
-    90                 D.J. Moore     Car   WR     0         Evan NOT-Almighty   
-    81             Jameis Winston      TB   QB     0         Evan NOT-Almighty   
-    
-        manager  
-    2       Dai  
-    170     Dai  
-    169     Dai  
-    168     Dai  
-    49      Dai  
-    167     Dai  
-    125     Dai  
-    133     Dai  
-    46      Dai  
-    114     Dai  
-    22      Dai  
-    42      Dai  
-    123     Dai  
-    87      Dai  
-    90      Dai  
-    81      Dai  
+                      name NFLTeam  Pos  cost keeper                 team manager
+    14        Keenan Allen     LAC   WR    71         Daized and Confused    Sean
+    3    Leonard Fournette     Jax   RB    60         Daized and Confused    Sean
+    20       Royce Freeman     Den   RB    36         Daized and Confused    Sean
+    154         Mike Evans      TB   WR    30     AB  Daized and Confused    Sean
+    62      Delanie Walker     Ten   TE    23         Daized and Confused    Sean
+    39   Wendell Smallwood     Phi   RB    21         Daized and Confused    Sean
+    153       Alvin Kamara      NO   RB     9      B  Daized and Confused    Sean
+    75       George Kittle      SF   TE     6         Daized and Confused    Sean
+    86    Duke Johnson Jr.     Cle   RB     5         Daized and Confused    Sean
+    152  Allen Robinson II     Chi   WR     5      B  Daized and Confused    Sean
+    155        Andrew Luck     Ind   QB     5      B  Daized and Confused    Sean
+    142     Dallas Goedert     Phi   TE     4         Daized and Confused    Sean
+    110       Chris Godwin      TB   WR     3         Daized and Confused    Sean
+    130     Donte Moncrief     Jax   WR     1         Daized and Confused    Sean
+    137     Jameis Winston      TB   QB     1         Daized and Confused    Sean
+    98        Indianapolis     Ind  DEF     0         Daized and Confused    Sean
     ------------------------------------------------------------------------------------
-                      name NFLTeam  Pos  cost keeper           team manager
-    14        Keenan Allen     LAC   WR    71         Ey Yo Nagster    Sean
-    3    Leonard Fournette     Jax   RB    60         Ey Yo Nagster    Sean
-    20       Royce Freeman     Den   RB    36         Ey Yo Nagster    Sean
-    154         Mike Evans      TB   WR    30     AB  Ey Yo Nagster    Sean
-    39   Wendell Smallwood     Phi   RB    21         Ey Yo Nagster    Sean
-    62         T.J. Yeldon     Jax   RB    11         Ey Yo Nagster    Sean
-    153       Alvin Kamara      NO   RB     9      B  Ey Yo Nagster    Sean
-    75       George Kittle      SF   TE     6         Ey Yo Nagster    Sean
-    86      Baker Mayfield     Cle   QB     6         Ey Yo Nagster    Sean
-    152  Allen Robinson II     Chi   WR     5      B  Ey Yo Nagster    Sean
-    155        Andrew Luck     Ind   QB     5      B  Ey Yo Nagster    Sean
-    142     Dallas Goedert     Phi   TE     4         Ey Yo Nagster    Sean
-    110       Chris Godwin      TB   WR     3         Ey Yo Nagster    Sean
-    98           Minnesota     Min  DEF     2         Ey Yo Nagster    Sean
-    137       Mohamed Sanu     Atl   WR     0         Ey Yo Nagster    Sean
-    130      Randy Bullock     Cin    K     0         Ey Yo Nagster    Sean
+                    name NFLTeam  Pos  cost keeper      team manager
+    9         A.J. Green     Cin   WR    67         Douglast    Jake
+    180  Ezekiel Elliott     Dal   RB    55      B  Douglast    Jake
+    28         Zach Ertz     Phi   TE    49         Douglast    Jake
+    23     Brandin Cooks     LAR   WR    39         Douglast    Jake
+    178     Kirk Cousins     Min   QB    22     AB  Douglast    Jake
+    177   Michael Thomas      NO   WR    18     AB  Douglast    Jake
+    35   Adrian Peterson     Was   RB    12         Douglast    Jake
+    84      Bilal Powell     NYJ   RB     7         Douglast    Jake
+    0       Dak Prescott     Dal   QB     6         Douglast    Jake
+    80    Taylor Gabriel     Chi   WR     5         Douglast    Jake
+    94     Justin Tucker     Bal    K     4         Douglast    Jake
+    129  Willie Snead IV     Bal   WR     3         Douglast    Jake
+    24    DeSean Jackson      TB   WR     2         Douglast    Jake
+    120       Pittsburgh     Pit  DEF     1         Douglast    Jake
+    58          New York     NYJ  DEF     0         Douglast    Jake
+    108       Greg Olsen     Car   TE     0         Douglast    Jake
     ------------------------------------------------------------------------------------
                      name NFLTeam  Pos  cost keeper             team manager
     17        Kareem Hunt      KC   RB    79         FirstRoundFlops   Rajiv
@@ -5665,13 +5687,31 @@ for ff in ff_team_names:
     36   Michael Crabtree     Bal   WR    19         FirstRoundFlops   Rajiv
     149     Austin Hooper     Atl   TE     6         FirstRoundFlops   Rajiv
     96         Jack Doyle     Ind   TE     4         FirstRoundFlops   Rajiv
-    148   Tyrell Williams     LAC   WR     1         FirstRoundFlops   Rajiv
     147   Latavius Murray     Min   RB     1         FirstRoundFlops   Rajiv
-    145   Benjamin Watson      NO   TE     1         FirstRoundFlops   Rajiv
     117     Mike Williams     LAC   WR     1         FirstRoundFlops   Rajiv
     134   Harrison Butker      KC    K     1         FirstRoundFlops   Rajiv
+    148   Tyrell Williams     LAC   WR     1         FirstRoundFlops   Rajiv
     140     Blake Bortles     Jax   QB     1         FirstRoundFlops   Rajiv
+    145   Benjamin Watson      NO   TE     1         FirstRoundFlops   Rajiv
     126           Houston     Hou  DEF     0         FirstRoundFlops   Rajiv
+    ------------------------------------------------------------------------------------
+                     name NFLTeam  Pos  cost keeper          team manager
+    13        Tyreek Hill      KC   WR    60         Free-Mangina    Ryan
+    26       Travis Kelce      KC   TE    52         Free-Mangina    Ryan
+    32      Aaron Rodgers      GB   QB    51         Free-Mangina    Ryan
+    6        LeSean McCoy     Buf   RB    29         Free-Mangina    Ryan
+    50         Dion Lewis     Ten   RB    29         Free-Mangina    Ryan
+    176     David Johnson     Ari   RB    18     AB  Free-Mangina    Ryan
+    53     Marshawn Lynch     Oak   RB    16         Free-Mangina    Ryan
+    18    Kelvin Benjamin     Buf   WR    15         Free-Mangina    Ryan
+    34       Jacksonville     Jax  DEF     8         Free-Mangina    Ryan
+    175    Deshaun Watson     Hou   QB     6     AB  Free-Mangina    Ryan
+    83     DeVante Parker     Mia   WR     5         Free-Mangina    Ryan
+    93   Sterling Shepard     NYG   WR     4         Free-Mangina    Ryan
+    136        Dan Bailey     Min    K     3         Free-Mangina    Ryan
+    119        Nick Chubb     Cle   RB     3         Free-Mangina    Ryan
+    128     Calvin Ridley     Atl   WR     1         Free-Mangina    Ryan
+    107     San Francisco      SF  DEF     0         Free-Mangina    Ryan
     ------------------------------------------------------------------------------------
                      name NFLTeam  Pos  cost keeper team manager
     44   Demaryius Thomas     Den   WR    38           G   Jiwei
@@ -5683,103 +5723,67 @@ for ff in ff_team_names:
     190      Carson Wentz     Phi   QB    10      B    G   Jiwei
     189      Jordy Nelson     Oak   WR     7           G   Jiwei
     97          Baltimore     Bal  DEF     5           G   Jiwei
-    105      Kenny Stills     Mia   WR     3           G   Jiwei
     109         Matt Ryan     Atl   QB     3           G   Jiwei
+    105      Kenny Stills     Mia   WR     3           G   Jiwei
     48     Vance McDonald     Pit   TE     0           G   Jiwei
-    54     Dede Westbrook     Jax   WR     0           G   Jiwei
+    54   Ka'imi Fairbairn     Hou    K     0           G   Jiwei
     61         Mike Davis     Sea   RB     0           G   Jiwei
-    85        Alfred Blue     Hou   RB     0           G   Jiwei
     89        Ryan Succop     Ten    K     0           G   Jiwei
-    ------------------------------------------------------------------------------------
-                     name NFLTeam  Pos  cost keeper  team manager
-    13        Tyreek Hill      KC   WR    60         Nags    Ryan
-    26       Travis Kelce      KC   TE    52         Nags    Ryan
-    32      Aaron Rodgers      GB   QB    51         Nags    Ryan
-    50         Dion Lewis     Ten   RB    29         Nags    Ryan
-    6        LeSean McCoy     Buf   RB    29         Nags    Ryan
-    176     David Johnson     Ari   RB    18     AB  Nags    Ryan
-    53     Marshawn Lynch     Oak   RB    16         Nags    Ryan
-    18    Kelvin Benjamin     Buf   WR    15         Nags    Ryan
-    34       Jacksonville     Jax  DEF     8         Nags    Ryan
-    175    Deshaun Watson     Hou   QB     6     AB  Nags    Ryan
-    83     DeVante Parker     Mia   WR     5         Nags    Ryan
-    93   Sterling Shepard     NYG   WR     4         Nags    Ryan
-    119        Nick Chubb     Cle   RB     3         Nags    Ryan
-    136        Dan Bailey     Min    K     3         Nags    Ryan
-    128     Calvin Ridley     Atl   WR     1         Nags    Ryan
-    107     San Francisco      SF  DEF     0         Nags    Ryan
-    ------------------------------------------------------------------------------------
-                             name NFLTeam  Pos  cost keeper                 team  \
-    11           Larry Fitzgerald     Ari   WR    41         Ron Ng away with it   
-    187             Derrick Henry     Ten   RB    19      B  Ron Ng away with it   
-    43             Julian Edelman      NE   WR    19         Ron Ng away with it   
-    7               Philip Rivers     LAC   QB    11         Ron Ng away with it   
-    88            Kerryon Johnson     Det   RB    10         Ron Ng away with it   
-    185               Tarik Cohen     Chi   RB     8      B  Ron Ng away with it   
-    186               Evan Engram     NYG   TE     8      B  Ron Ng away with it   
-    115            Kenny Golladay     Det   WR     5         Ron Ng away with it   
-    100              James Conner     Pit   RB     5         Ron Ng away with it   
-    188       JuJu Smith-Schuster     Pit   WR     5      B  Ron Ng away with it   
-    91                    Chicago     Chi  DEF     3         Ron Ng away with it   
-    118              Jake Elliott     Phi    K     2         Ron Ng away with it   
-    103          Antonio Callaway     Cle   WR     0         Ron Ng away with it   
-    79   Marquez Valdes-Scantling      GB   WR     0         Ron Ng away with it   
-    67               Nyheim Hines     Ind   RB     0         Ron Ng away with it   
-    78           Geronimo Allison      GB   WR     0         Ron Ng away with it   
-    
-        manager  
-    11   Andrew  
-    187  Andrew  
-    43   Andrew  
-    7    Andrew  
-    88   Andrew  
-    185  Andrew  
-    186  Andrew  
-    115  Andrew  
-    100  Andrew  
-    188  Andrew  
-    91   Andrew  
-    118  Andrew  
-    103  Andrew  
-    79   Andrew  
-    67   Andrew  
-    78   Andrew  
+    85        Alfred Blue     Hou   RB     0           G   Jiwei
     ------------------------------------------------------------------------------------
                         name NFLTeam  Pos  cost keeper               team manager
-    27   Christian McCaffrey     Car   RB    67         Threemen one Kupp     Ron
-    166         Le'Veon Bell     Pit   RB    66     AB  Threemen one Kupp     Ron
-    41          Alex Collins     Bal   RB    56         Threemen one Kupp     Ron
-    164    Odell Beckham Jr.     NYG   WR    29     AB  Threemen one Kupp     Ron
-    163         Stefon Diggs     Min   WR    24     AB  Threemen one Kupp     Ron
-    31          Jimmy Graham      GB   TE    23         Threemen one Kupp     Ron
-    111          Matt Breida      SF   RB    11         Threemen one Kupp     Ron
-    95           Sony Michel      NE   RB     7         Threemen one Kupp     Ron
-    112          Marlon Mack     Ind   RB     6         Threemen one Kupp     Ron
-    165          Josh Gordon      NE   WR     6      B  Threemen one Kupp     Ron
-    106          Matt Bryant     Atl    K     2         Threemen one Kupp     Ron
-    131          Andy Dalton     Cin   QB     1         Threemen one Kupp     Ron
-    101        Quincy Enunwa     NYJ   WR     0         Threemen one Kupp     Ron
-    138           Tyler Boyd     Cin   WR     0         Threemen one Kupp     Ron
-    76    Ben Roethlisberger     Pit   QB     0         Threemen one Kupp     Ron
-    143          Los Angeles     LAC  DEF     0         Threemen one Kupp     Ron
+    11      Larry Fitzgerald     Ari   WR    41         No bunny no fu fu  Andrew
+    43        Julian Edelman      NE   WR    19         No bunny no fu fu  Andrew
+    7          Philip Rivers     LAC   QB    11         No bunny no fu fu  Andrew
+    88       Kerryon Johnson     Det   RB    10         No bunny no fu fu  Andrew
+    186          Evan Engram     NYG   TE     8      B  No bunny no fu fu  Andrew
+    185          Tarik Cohen     Chi   RB     8      B  No bunny no fu fu  Andrew
+    115       Kenny Golladay     Det   WR     5         No bunny no fu fu  Andrew
+    100         James Conner     Pit   RB     5         No bunny no fu fu  Andrew
+    188  JuJu Smith-Schuster     Pit   WR     5      B  No bunny no fu fu  Andrew
+    91               Chicago     Chi  DEF     3         No bunny no fu fu  Andrew
+    118         Jake Elliott     Phi    K     2         No bunny no fu fu  Andrew
+    187    Mitchell Trubisky     Chi   QB     0         No bunny no fu fu  Andrew
+    103     Antonio Callaway     Cle   WR     0         No bunny no fu fu  Andrew
+    79         Peyton Barber      TB   RB     0         No bunny no fu fu  Andrew
+    67          Nyheim Hines     Ind   RB     0         No bunny no fu fu  Andrew
     ------------------------------------------------------------------------------------
-                      name NFLTeam  Pos  cost keeper               team manager
-    9           A.J. Green     Cin   WR    67         Yeezekiel Elliott    Jake
-    180    Ezekiel Elliott     Dal   RB    55      B  Yeezekiel Elliott    Jake
-    28           Zach Ertz     Phi   TE    49         Yeezekiel Elliott    Jake
-    23       Brandin Cooks     LAR   WR    39         Yeezekiel Elliott    Jake
-    178       Kirk Cousins     Min   QB    22     AB  Yeezekiel Elliott    Jake
-    177     Michael Thomas      NO   WR    18     AB  Yeezekiel Elliott    Jake
-    35     Adrian Peterson     Was   RB    12         Yeezekiel Elliott    Jake
-    84        Bilal Powell     NYJ   RB     7         Yeezekiel Elliott    Jake
-    0         Dak Prescott     Dal   QB     6         Yeezekiel Elliott    Jake
-    80      Taylor Gabriel     Chi   WR     5         Yeezekiel Elliott    Jake
-    94       Justin Tucker     Bal    K     4         Yeezekiel Elliott    Jake
-    120        James White      NE   RB     2         Yeezekiel Elliott    Jake
-    24      DeSean Jackson      TB   WR     2         Yeezekiel Elliott    Jake
-    129       Randall Cobb      GB   WR     1         Yeezekiel Elliott    Jake
-    108  Ricky Seals-Jones     Ari   TE     1         Yeezekiel Elliott    Jake
-    58             Seattle     Sea  DEF     0         Yeezekiel Elliott    Jake
+                      name NFLTeam  Pos  cost keeper     team manager
+    2       Rob Gronkowski      NE   TE    64         Seandon     Dai
+    170    DeAndre Hopkins     Hou   WR    56      B  Seandon     Dai
+    169  Melvin Gordon III     LAC   RB    39     AB  Seandon     Dai
+    168      Davante Adams      GB   WR    27     AB  Seandon     Dai
+    49          Drew Brees      NO   QB    25         Seandon     Dai
+    167       Kenyan Drake     Mia   RB    17      B  Seandon     Dai
+    87          Dez Bryant     Dal   WR     8         Seandon     Dai
+    125      Rashaad Penny     Sea   RB     5         Seandon     Dai
+    133      Rashaad Penny     Sea   RB     5         Seandon     Dai
+    114       Charles Clay     Buf   TE     1         Seandon     Dai
+    46             Buffalo     Buf  DEF     0         Seandon     Dai
+    42     Ronald Jones II      TB   RB     0         Seandon     Dai
+    22       Peyton Barber      TB   RB     0         Seandon     Dai
+    81      Jameis Winston      TB   QB     0         Seandon     Dai
+    123     Javorius Allen     Bal   RB     0         Seandon     Dai
+    90          D.J. Moore     Car   WR     0         Seandon     Dai
+    ------------------------------------------------------------------------------------
+                        name NFLTeam  Pos  cost keeper     team manager
+    27   Christian McCaffrey     Car   RB    67         Yeebola     Ron
+    166         Le'Veon Bell     Pit   RB    66     AB  Yeebola     Ron
+    41          Alex Collins     Bal   RB    56         Yeebola     Ron
+    164    Odell Beckham Jr.     NYG   WR    29     AB  Yeebola     Ron
+    163         Stefon Diggs     Min   WR    24     AB  Yeebola     Ron
+    31          Jimmy Graham      GB   TE    23         Yeebola     Ron
+    95           Sony Michel      NE   RB     7         Yeebola     Ron
+    165          Josh Gordon      NE   WR     6      B  Yeebola     Ron
+    112          Marlon Mack     Ind   RB     6         Yeebola     Ron
+    106        Greg Zuerlein     LAR    K     6         Yeebola     Ron
+    78        Dede Westbrook     Jax   WR     5         Yeebola     Ron
+    111    LeGarrette Blount     Det   RB     2         Yeebola     Ron
+    101         Indianapolis     Ind  DEF     0         Yeebola     Ron
+    131            Ito Smith     Atl   RB     0         Yeebola     Ron
+    138           Tyler Boyd     Cin   WR     0         Yeebola     Ron
+    76    Ben Roethlisberger     Pit   QB     0         Yeebola     Ron
+    143          Los Angeles     LAC  DEF     0         Yeebola     Ron
     ------------------------------------------------------------------------------------
     
 
